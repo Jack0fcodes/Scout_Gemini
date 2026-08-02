@@ -1,99 +1,83 @@
-# Scout Gemini API
+# Scout Gemini
 
-A thin proxy over Google's **free-tier Gemini API** for the Scout app agent.
+A Gemini-powered lead scout for the **Scout iOS app**.
 
-Your Google AI Studio key stays on the server — the Scout agent (and the demo
-web page) call clean JSON endpoints instead of talking to Google directly, so
-the key is never shipped to the client.
+Scout fetches `leads.json` from several agent repos and merges them by
+`post_id`. This repo is the **Gemini agent**: it discovers fresh "someone is
+looking to hire / commission an artist" posts using **Gemini + Google Search
+grounding**, normalizes them into the shared lead schema, and writes
+`leads.json` — served to the app at:
 
-## Why a proxy?
+```
+https://raw.githubusercontent.com/Jack0fcodes/Scout_Gemini/main/leads.json
+```
 
-Calling Gemini straight from browser/client code exposes your API key to
-anyone who opens dev tools. This proxy holds the key, exposes `/api/chat` and
-`/api/generate`, and gives you one place to add rate limiting, logging, or
-model switching later.
+It runs alongside the existing agents (`Scout_Grok`, `redd0tBot`), which the
+app fetches concurrently and dedupes.
 
-## Quick start
+## Lead schema
+
+Each entry in `leads.json` matches the other agents exactly:
+
+```json
+{
+  "post_id": "Twitter/X-2083751751232983462",
+  "platform": "Twitter/X",
+  "source": "@handle",
+  "author": "Display Name",
+  "title": "Looking for a concept artist",
+  "content": "…the post text…",
+  "url": "https://x.com/handle/status/…",
+  "quality": "High Quality",
+  "budget": "$200",
+  "created_at": "2026-08-02T03:08:26Z"
+}
+```
+
+`quality` is `High Quality | Medium | Low`. `post_id` is taken from the source
+when available, otherwise derived as `<platform>-<hash>` so dedupe stays stable.
+
+## How it works
+
+1. `config.json` holds the model and a list of intent queries (art commission,
+   concept art, logo/graphic design, tattoo/mural, game art, 3D/animation…).
+2. For each query, Gemini runs a **grounded** search (`google_search` tool) —
+   its analog to Grok's live X search — and returns candidate leads as JSON.
+3. Leads are validated against the grounding sources (a guard against invented
+   URLs), normalized to the schema, then **merged into `leads.json`**: deduped
+   by `post_id`/`url`, newest kept on conflict, sorted newest-first, capped at
+   `maxLeadsInFile`.
+
+> Note: grounding surfaces real web results, but an LLM can still misattribute
+> a link. The source-host check filters the worst cases; tune `config.json`
+> queries and `quality` handling to taste.
+
+## Run it
 
 ```bash
-# 1. Install deps
 npm install
-
-# 2. Add your free key
-cp .env.example .env
-#   then edit .env and paste your key from
-#   https://aistudio.google.com/app/apikey
-
-# 3. Run it
-npm start
+cp .env.example .env        # add your free key from https://aistudio.google.com/app/apikey
+npm run dry-run             # discover + print, don't write the file
+npm start                  # discover, merge, write leads.json
 ```
 
-Open <http://localhost:3000> for the demo chat UI, or point your Scout agent at
-the endpoints below.
+## Automated refresh (GitHub Actions)
 
-## Endpoints
+`.github/workflows/scout.yml` runs every 6 hours (and on manual dispatch),
+then commits `leads.json` if it changed — so the app's raw URL stays fresh.
 
-| Method | Path                | Body                                                        |
-| ------ | ------------------- | ----------------------------------------------------------- |
-| GET    | `/health`           | –                                                           |
-| POST   | `/api/generate`     | `{ prompt, system?, model?, temperature? }`                 |
-| POST   | `/api/chat`         | `{ messages: [{role,content}], system?, model?, temperature? }` |
-| POST   | `/api/chat/stream`  | same as `/api/chat`, streams text as SSE                    |
+**One-time setup:** add your key as a repo secret named `GEMINI_API_KEY`
+(Settings → Secrets and variables → Actions → New repository secret). The
+workflow already has `contents: write` permission to push the update.
 
-`role` is `"user"` or `"assistant"`. A `system` string sets the system
-instruction.
+## Configuration (`config.json`)
 
-### curl example
-
-```bash
-curl -X POST http://localhost:3000/api/generate \
-  -H "Content-Type: application/json" \
-  -d '{"prompt":"Give me a one-line summary of this lead."}'
-```
-
-## Using it from the Scout agent
-
-```js
-import { ScoutGemini } from "./scoutGemini.js";
-
-const gemini = new ScoutGemini({
-  baseUrl: "http://localhost:3000",
-  system: "You are Scout, a concise research assistant.",
-});
-
-// Single shot
-const summary = await gemini.generate("Summarize: ...");
-
-// Multi-turn
-const reply = await gemini.chat([
-  { role: "user", content: "Find me B2B SaaS leads in fintech." },
-]);
-
-// Streaming
-await gemini.chatStream(
-  [{ role: "user", content: "Draft an outreach email." }],
-  (delta) => process.stdout.write(delta)
-);
-```
-
-## Configuration
-
-| Variable         | Default            | Notes                                             |
-| ---------------- | ------------------ | ------------------------------------------------- |
-| `GEMINI_API_KEY` | –                  | **Required.** Free key from Google AI Studio.     |
-| `GEMINI_MODEL`   | `gemini-2.0-flash` | Any Gemini model on the free tier.                |
-| `PORT`           | `3000`             | Server port.                                      |
-
-Free-tier models worth using: `gemini-2.0-flash` (fast, default),
-`gemini-2.5-flash`, `gemini-1.5-flash`. The free tier has generous per-minute
-and per-day request limits — see Google's docs for current numbers.
-
-## Deploying
-
-It's a standard Node 18+ Express app, so it runs anywhere that runs Node
-(Render, Railway, Fly.io, a VPS) or as a serverless function with light
-adaptation. Set `GEMINI_API_KEY` as an environment variable in your host —
-never commit `.env`.
+| Field           | Default            | Meaning                                  |
+| --------------- | ------------------ | ---------------------------------------- |
+| `model`         | `gemini-2.0-flash` | Any grounding-capable Gemini model.      |
+| `recencyDays`   | `7`                | How far back the prompt asks Gemini to look. |
+| `maxLeadsInFile`| `150`              | Cap on `leads.json` length.              |
+| `queries`       | list               | Hiring-intent searches to run each pass. |
 
 ## License
 

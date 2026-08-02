@@ -1,0 +1,45 @@
+name: Scout Gemini
+
+# Runs the Gemini lead scout on a schedule and commits any new leads to
+# leads.json, which the Scout iOS app fetches from raw.githubusercontent.com.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours (UTC)
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scout-gemini
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm ci --omit=dev || npm install --omit=dev
+
+      - name: Run scout
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scout.js
+
+      - name: Commit updated leads
+        run: |
+          git config user.name "scout-gemini-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet -- leads.json; then
+            git add leads.json
+            git commit -m "chore: refresh Gemini leads ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "No lead changes."
+          fi

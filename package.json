@@ -1,26 +1,23 @@
 {
-  "name": "scout-gemini-api",
+  "name": "scout-gemini",
   "version": "1.0.0",
-  "description": "Free Gemini API proxy for the Scout app agent. Keeps your Google AI Studio key server-side and exposes clean chat/generate endpoints.",
+  "description": "Gemini-powered lead scout for the Scout iOS app. Discovers 'looking to hire an artist' posts via Gemini + Google Search grounding and writes leads.json in the Scout schema.",
   "type": "module",
-  "main": "server.js",
+  "main": "scout.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node scout.js",
+    "dry-run": "node scout.js --dry-run"
   },
   "keywords": [
     "gemini",
     "google-ai",
-    "proxy",
     "scout",
-    "agent",
-    "llm"
+    "leads",
+    "agent"
   ],
   "license": "MIT",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5"
   },
   "engines": {
     "node": ">=18"
