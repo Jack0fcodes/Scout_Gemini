@@ -1,11 +1,12 @@
 // Scout Gemini agent
 // ------------------
-// Discovers fresh "looking to hire an artist" posts using Gemini + Google
-// Search grounding, normalizes them into the Scout lead schema, merges them
-// into leads.json (dedupe by post_id, newest-first), and writes the file.
+// Runs the prompt in prompt.txt against Gemini + Google Search grounding to
+// discover open-web "client hiring an artist" posts (excluding X / Reddit /
+// Meta, which other agents cover), normalizes them into the Scout lead schema,
+// merges into leads.json (dedupe by post_id, newest-first), and writes it.
 //
-// The Scout iOS app fetches this leads.json alongside the other agents'
-// (Scout_Grok, redd0tBot) and merges them all by post_id.
+// The Scout iOS app fetches this leads.json alongside Scout_Grok / redd0tBot
+// and merges everything by post_id.
 //
 // Usage:
 //   node scout.js            # discover, merge, write leads.json
@@ -23,45 +24,27 @@ dotenv.config();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const LEADS_PATH = path.join(__dirname, "leads.json");
 const CONFIG_PATH = path.join(__dirname, "config.json");
+const PROMPT_PATH = path.join(__dirname, "prompt.txt");
 
 const DRY_RUN = process.argv.includes("--dry-run");
 const API_KEY = process.env.GEMINI_API_KEY;
-
-function buildPrompt(query, recencyDays) {
-  return `You are a lead-scout for a marketplace that connects clients with artists.
-
-TASK: Using web search, find REAL, RECENT public social-media / forum posts
-(from roughly the last ${recencyDays} days) where someone is looking to HIRE or
-COMMISSION an artist. Focus on this intent: "${query}".
-
-Only include posts that are genuine hiring/commission requests from the person
-who wants to hire — not artists advertising themselves, not news, not listicles.
-
-Return ONLY a JSON array (no prose, no markdown fences). Each element:
-{
-  "platform":  "e.g. Twitter/X, Reddit, Instagram",
-  "source":    "the poster's @handle or username",
-  "author":    "the poster's display name",
-  "title":     "short summary of what they want, e.g. 'Looking for concept artist'",
-  "content":   "the relevant text of the post",
-  "url":       "the DIRECT link to the post (must be a real URL you found)",
-  "quality":   "High Quality | Medium | Low (High if budget stated / detailed brief)",
-  "budget":    "stated budget like '$200' or '' if none",
-  "created_at": "ISO 8601 timestamp of the post if known, else ''"
-}
-
-Rules:
-- Do NOT fabricate URLs, handles, or posts. If you cannot verify a link, omit it.
-- Prefer posts that mention a budget or a clear brief.
-- If you find nothing credible, return [].
-- Return at most 15 items.`;
-}
 
 async function readJson(file, fallback) {
   try {
     return JSON.parse(await fs.readFile(file, "utf8"));
   } catch {
     return fallback;
+  }
+}
+
+// Drop leads that other agents own or that have an unusable URL.
+function isAllowed(lead, excluded) {
+  if (!lead?.url) return false;
+  try {
+    const host = new URL(lead.url).hostname.replace(/^www\./, "");
+    return !excluded.some((bad) => host === bad || host.endsWith("." + bad));
+  } catch {
+    return false; // not a real, parseable link
   }
 }
 
@@ -76,47 +59,34 @@ async function main() {
 
   const config = await readJson(CONFIG_PATH, {});
   const model = config.model || "gemini-2.0-flash";
-  const recencyDays = config.recencyDays || 7;
   const maxLeads = config.maxLeadsInFile || 150;
-  const queries = Array.isArray(config.queries) && config.queries.length
-    ? config.queries
-    : ["looking to hire an artist for a paid commission"];
+  const passes = Math.max(1, config.passes || 1);
+  const excluded = config.excludePlatforms || [];
 
+  const prompt = (await fs.readFile(PROMPT_PATH, "utf8")).trim();
   const existing = await readJson(LEADS_PATH, []);
-  console.log(`Loaded ${existing.length} existing leads. Running ${queries.length} queries with ${model}…`);
+  console.log(`Loaded ${existing.length} existing leads. Running ${passes} pass(es) with ${model}…`);
 
   const found = [];
-  for (const query of queries) {
+  for (let i = 1; i <= passes; i++) {
     try {
-      const { text, sources } = await groundedGenerate({
-        apiKey: API_KEY,
-        model,
-        prompt: buildPrompt(query, recencyDays),
-      });
+      const { text, sources } = await groundedGenerate({ apiKey: API_KEY, model, prompt });
       const items = extractJsonArray(text);
-
-      // Keep only leads whose URL host appears among grounded sources, when we
-      // have grounding data — a cheap guard against invented links.
-      const grounded = items.filter((it) => {
-        if (!sources.length) return true; // no metadata -> don't over-filter
-        try {
-          const host = new URL(it.url).hostname.replace(/^www\./, "");
-          return sources.some((s) => s.includes(host) || host.includes("x.com"));
-        } catch {
-          return false;
-        }
-      });
-
-      console.log(`  "${query}" -> ${items.length} parsed, ${grounded.length} kept`);
-      found.push(...grounded);
+      const allowed = items.filter((it) => isAllowed(it, excluded));
+      console.log(
+        `  pass ${i}: ${items.length} parsed, ${allowed.length} kept (grounded on ${sources.length} sources)`
+      );
+      found.push(...allowed);
     } catch (err) {
-      console.warn(`  "${query}" -> error: ${err.message}`);
+      console.warn(`  pass ${i}: error: ${err.message}`);
     }
   }
 
   const merged = mergeLeads(existing, found, { maxLeads });
   const added = merged.length - existing.length;
-  console.log(`\nDiscovered ${found.length} raw leads; file now has ${merged.length} (${added >= 0 ? "+" : ""}${added}).`);
+  console.log(
+    `\nDiscovered ${found.length} raw leads; file now has ${merged.length} (${added >= 0 ? "+" : ""}${added}).`
+  );
 
   if (DRY_RUN) {
     console.log("\n--dry-run: not writing leads.json. Sample of newest:\n");

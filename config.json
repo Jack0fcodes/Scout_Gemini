@@ -1,15 +1,6 @@
 {
   "model": "gemini-2.0-flash",
   "maxLeadsInFile": 150,
-  "recencyDays": 7,
-  "queries": [
-    "looking to hire an artist for a paid commission",
-    "looking for an artist to commission",
-    "hiring a digital artist / illustrator",
-    "hiring a concept artist or character artist",
-    "looking for a logo or graphic designer to hire",
-    "hiring a tattoo / graffiti / mural artist",
-    "looking to commission game art (pixel, tileset, sprite)",
-    "looking for a 3D artist or animator to hire"
-  ]
+  "passes": 1,
+  "excludePlatforms": ["x.com", "twitter.com", "reddit.com", "facebook.com", "instagram.com", "threads.net", "threads.com"]
 }

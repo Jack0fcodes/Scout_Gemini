@@ -39,18 +39,21 @@ when available, otherwise derived as `<platform>-<hash>` so dedupe stays stable.
 
 ## How it works
 
-1. `config.json` holds the model and a list of intent queries (art commission,
-   concept art, logo/graphic design, tattoo/mural, game art, 3D/animation…).
-2. For each query, Gemini runs a **grounded** search (`google_search` tool) —
-   its analog to Grok's live X search — and returns candidate leads as JSON.
-3. Leads are validated against the grounding sources (a guard against invented
-   URLs), normalized to the schema, then **merged into `leads.json`**: deduped
-   by `post_id`/`url`, newest kept on conflict, sorted newest-first, capped at
-   `maxLeadsInFile`.
+1. The agent reads the instruction in **`prompt.txt`** — the single source of
+   truth for what to search and how to shape output. Edit that file to change
+   behavior; no code changes needed.
+2. It sends the prompt to Gemini with **Google Search grounding** (`google_search`
+   tool) — its analog to Grok's live X search — and Gemini returns a bare JSON
+   array of leads. The prompt targets the **open web** (Kickstarter, itch.io,
+   Bandcamp, Tumblr, ArtStation, Craigslist, TCG/TTRPG/VTuber forums, …) and
+   **excludes X, Reddit, and Meta apps**, which the other agents cover.
+3. Leads are filtered (drop excluded platforms + unparseable URLs), normalized
+   to the schema, then **merged into `leads.json`**: deduped by `post_id`/`url`,
+   newest kept on conflict, sorted newest-first, capped at `maxLeadsInFile`.
 
-> Note: grounding surfaces real web results, but an LLM can still misattribute
-> a link. The source-host check filters the worst cases; tune `config.json`
-> queries and `quality` handling to taste.
+> Note: grounding surfaces real web results, but an LLM can still misattribute a
+> link. `prompt.txt` forbids invented URLs and the platform filter drops
+> anything another agent owns; tune the prompt and `quality` handling to taste.
 
 ## Run it
 
@@ -72,12 +75,14 @@ workflow already has `contents: write` permission to push the update.
 
 ## Configuration (`config.json`)
 
-| Field           | Default            | Meaning                                  |
-| --------------- | ------------------ | ---------------------------------------- |
-| `model`         | `gemini-2.0-flash` | Any grounding-capable Gemini model.      |
-| `recencyDays`   | `7`                | How far back the prompt asks Gemini to look. |
-| `maxLeadsInFile`| `150`              | Cap on `leads.json` length.              |
-| `queries`       | list               | Hiring-intent searches to run each pass. |
+| Field              | Default            | Meaning                                       |
+| ------------------ | ------------------ | --------------------------------------------- |
+| `model`            | `gemini-2.0-flash` | Any grounding-capable Gemini model.           |
+| `maxLeadsInFile`   | `150`              | Cap on `leads.json` length.                   |
+| `passes`           | `1`                | How many times to run the prompt per refresh. |
+| `excludePlatforms` | X/Reddit/Meta hosts | Lead URLs on these hosts are dropped.         |
+
+The search instruction itself lives in **`prompt.txt`**, not here.
 
 ## License
 
