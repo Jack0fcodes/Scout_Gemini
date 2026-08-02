@@ -1,0 +1,28 @@
+{
+  "name": "scout-gemini-api",
+  "version": "1.0.0",
+  "description": "Free Gemini API proxy for the Scout app agent. Keeps your Google AI Studio key server-side and exposes clean chat/generate endpoints.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "gemini",
+    "google-ai",
+    "proxy",
+    "scout",
+    "agent",
+    "llm"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
