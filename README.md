@@ -73,11 +73,20 @@ then commits `leads.json` if it changed — so the app's raw URL stays fresh.
 (Settings → Secrets and variables → Actions → New repository secret). The
 workflow already has `contents: write` permission to push the update.
 
+> **Grounding needs billing enabled.** Gemini text generation is free, but the
+> `google_search` grounding tool this agent relies on draws from a separate
+> quota that is zero on a pure free-tier project (requests return
+> `429 RESOURCE_EXHAUSTED`). Enable pay-as-you-go on the key's Google Cloud
+> project to unlock it — the first 5,000 grounded searches/month are free, so
+> at this agent's volume the real cost is effectively $0. The `diagnose.js`
+> script (run via the "Scout Gemini Diagnose" workflow) tests plain vs.
+> grounded calls if you need to confirm quota state.
+
 ## Configuration (`config.json`)
 
 | Field              | Default            | Meaning                                       |
 | ------------------ | ------------------ | --------------------------------------------- |
-| `models`           | 3.5-flash → 3-flash → 3.1-flash-lite | Ordered free-tier candidates; first that responds is used. |
+| `models`           | `gemini-3.6-flash` | Ordered candidates; first that responds is used. |
 | `maxLeadsInFile`   | `150`              | Cap on `leads.json` length.                   |
 | `passes`           | `1`                | How many times to run the prompt per refresh. |
 | `excludePlatforms` | X/Reddit/Meta hosts | Lead URLs on these hosts are dropped.         |
