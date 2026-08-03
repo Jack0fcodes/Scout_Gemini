@@ -1,5 +1,5 @@
 {
-  "model": "gemini-2.0-flash",
+  "model": "gemini-3.6-flash",
   "maxLeadsInFile": 150,
   "passes": 1,
   "excludePlatforms": ["x.com", "twitter.com", "reddit.com", "facebook.com", "instagram.com", "threads.net", "threads.com"]
