@@ -77,7 +77,7 @@ workflow already has `contents: write` permission to push the update.
 
 | Field              | Default            | Meaning                                       |
 | ------------------ | ------------------ | --------------------------------------------- |
-| `model`            | `gemini-3.6-flash` | Any current free-tier, grounding-capable Gemini model. |
+| `models`           | 3.5-flash → 3-flash → 3.1-flash-lite | Ordered free-tier candidates; first that responds is used. |
 | `maxLeadsInFile`   | `150`              | Cap on `leads.json` length.                   |
 | `passes`           | `1`                | How many times to run the prompt per refresh. |
 | `excludePlatforms` | X/Reddit/Meta hosts | Lead URLs on these hosts are dropped.         |

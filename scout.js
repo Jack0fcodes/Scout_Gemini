@@ -58,28 +58,49 @@ async function main() {
   }
 
   const config = await readJson(CONFIG_PATH, {});
-  const model = config.model || "gemini-2.0-flash";
+  // Support either a single `model` or an ordered `models` fallback list.
+  const candidates = Array.isArray(config.models) && config.models.length
+    ? config.models
+    : [config.model || "gemini-3.5-flash"];
   const maxLeads = config.maxLeadsInFile || 150;
   const passes = Math.max(1, config.passes || 1);
   const excluded = config.excludePlatforms || [];
 
   const prompt = (await fs.readFile(PROMPT_PATH, "utf8")).trim();
   const existing = await readJson(LEADS_PATH, []);
-  console.log(`Loaded ${existing.length} existing leads. Running ${passes} pass(es) with ${model}…`);
+  console.log(
+    `Loaded ${existing.length} existing leads. Candidates: ${candidates.join(", ")}. Running ${passes} pass(es)…`
+  );
+
+  // Run one grounded pass, trying candidate models until one responds. Once a
+  // model works, stick with it for the rest of the run.
+  let workingModel = null;
+  async function runPass(i) {
+    const toTry = workingModel ? [workingModel] : candidates;
+    for (const model of toTry) {
+      try {
+        const { text, sources } = await groundedGenerate({ apiKey: API_KEY, model, prompt });
+        workingModel = model;
+        const items = extractJsonArray(text);
+        const allowed = items.filter((it) => isAllowed(it, excluded));
+        console.log(
+          `  pass ${i} [${model}]: ${items.length} parsed, ${allowed.length} kept (grounded on ${sources.length} sources)`
+        );
+        return allowed;
+      } catch (err) {
+        const detail = err.details ? ` | ${JSON.stringify(err.details.details || err.details.status || "")}` : "";
+        console.warn(`  pass ${i} [${model}]: ${err.status || ""} ${err.message}${detail}`);
+      }
+    }
+    return [];
+  }
 
   const found = [];
   for (let i = 1; i <= passes; i++) {
-    try {
-      const { text, sources } = await groundedGenerate({ apiKey: API_KEY, model, prompt });
-      const items = extractJsonArray(text);
-      const allowed = items.filter((it) => isAllowed(it, excluded));
-      console.log(
-        `  pass ${i}: ${items.length} parsed, ${allowed.length} kept (grounded on ${sources.length} sources)`
-      );
-      found.push(...allowed);
-    } catch (err) {
-      console.warn(`  pass ${i}: error: ${err.message}`);
-    }
+    found.push(...(await runPass(i)));
+  }
+  if (!workingModel) {
+    console.warn("No candidate model succeeded — see errors above (likely free-tier/billing).");
   }
 
   const merged = mergeLeads(existing, found, { maxLeads });
