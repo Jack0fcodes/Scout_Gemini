@@ -4,12 +4,9 @@ name: Scout Gemini
 # leads.json, which the Scout iOS app fetches from raw.githubusercontent.com.
 
 on:
-  # PAUSED: scheduled runs are disabled until Google Cloud billing is enabled
-  # on the API key's project (grounding returns 429 without it). Re-enable by
-  # uncommenting the schedule block below.
-  # schedule:
-  #   - cron: "0 */6 * * *" # every 6 hours (UTC)
-  workflow_dispatch: {} # manual runs from the Actions tab still work
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours (UTC)
+  workflow_dispatch: {} # allow manual runs from the Actions tab
 
 permissions:
   contents: write
