@@ -107,8 +107,16 @@ async function main() {
     const toTry = workingModel ? [workingModel] : candidates;
     for (const model of toTry) {
       try {
-        const { text, sources } = await groundedGenerate({ apiKey: API_KEY, model, prompt });
+        const { text, sources, usage } = await groundedGenerate({ apiKey: API_KEY, model, prompt });
         workingModel = model;
+        // Rough cost estimate (gemini-3.6-flash: $1.50/1M in, $7.50/1M out;
+        // thinking tokens bill as output). Grounding itself is free < 5k/mo.
+        if (usage) {
+          const cost = (usage.input * 1.5 + (usage.output + usage.thoughts) * 7.5) / 1e6;
+          console.log(
+            `  tokens: in=${usage.input} think=${usage.thoughts} out=${usage.output} → ~$${cost.toFixed(4)}/run`
+          );
+        }
         const items = extractJsonArray(text);
         // Resolve grounding-redirect URLs to their real destinations first, so
         // both the stored link and the platform filter use the true host.

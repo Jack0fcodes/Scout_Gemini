@@ -5,7 +5,7 @@ name: Scout Gemini
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours (UTC)
+    - cron: "0 */12 * * *" # twice daily (UTC) — keeps token cost low
   workflow_dispatch: {} # allow manual runs from the Actions tab
 
 permissions:
