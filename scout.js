@@ -48,6 +48,34 @@ function isAllowed(lead, excluded) {
   }
 }
 
+// Grounded responses often cite posts via a Google redirect URL rather than the
+// real link. Follow the redirect once to recover the true destination (so the
+// app gets clean itch.io/etc. URLs and the platform filter sees the real host).
+const REDIRECT_HOST = "vertexaisearch.cloud.google.com";
+async function resolveRedirect(url) {
+  try {
+    if (typeof url !== "string" || !url.includes(REDIRECT_HOST)) return url;
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 8000);
+    const res = await fetch(url, { redirect: "follow", signal: ctrl.signal });
+    clearTimeout(timer);
+    // Case 1: an HTTP redirect already took us to the real host.
+    if (res.url && !res.url.includes(REDIRECT_HOST)) {
+      res.body?.cancel?.();
+      return res.url;
+    }
+    // Case 2: the page uses an HTML meta-refresh to the real URL.
+    const html = await res.text();
+    const meta = html.match(/http-equiv=["']?refresh["']?[^>]*url=([^"'>\s]+)/i);
+    if (meta && meta[1] && !meta[1].includes(REDIRECT_HOST)) {
+      return meta[1].replace(/&amp;/g, "&");
+    }
+    return url;
+  } catch {
+    return url; // keep the original if resolution fails
+  }
+}
+
 async function main() {
   if (!API_KEY) {
     console.error(
@@ -82,6 +110,13 @@ async function main() {
         const { text, sources } = await groundedGenerate({ apiKey: API_KEY, model, prompt });
         workingModel = model;
         const items = extractJsonArray(text);
+        // Resolve grounding-redirect URLs to their real destinations first, so
+        // both the stored link and the platform filter use the true host.
+        await Promise.all(
+          items.map(async (it) => {
+            if (it && it.url) it.url = await resolveRedirect(it.url);
+          })
+        );
         const allowed = items.filter((it) => isAllowed(it, excluded));
         console.log(
           `  pass ${i} [${model}]: ${items.length} parsed, ${allowed.length} kept (grounded on ${sources.length} sources)`
