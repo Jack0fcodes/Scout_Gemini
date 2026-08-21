@@ -9,6 +9,7 @@ RULES:
   closed/outdated/fulfilled requests.
 - Use only real search-grounded results. Every "url" must be an actual link
   returned by search — never invent or guess a URL.
+- Return at most 25 leads.
 PLATFORMS (open web — do NOT search X, Reddit, or Meta apps; other agents cover those):
 - Crowdfunding / indie: Kickstarter, Indiegogo, itch.io, GameJolt
 - Music: Bandcamp, SoundCloud, ReverbNation
