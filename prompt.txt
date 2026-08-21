@@ -21,10 +21,19 @@ RULES:
   craigslist.org/search/...). If you cannot find the direct post URL, OMIT
   that lead entirely.
 - Return at most 25 leads.
-PLATFORMS (open web — do NOT search X, Reddit, or Meta apps; other agents cover those):
+SEARCH STRATEGY:
+1. First do broad open-web Google searches for the requests above (vary the
+   wording: "hiring artist", "commission open", "looking to pay an artist"…).
+2. Then specifically check the priority platforms below.
+Include qualifying leads from ANY open-web source — the list is priorities,
+not a whitelist. NEVER search X, Reddit, or Meta apps, and never include a
+lead whose url is on those sites (other agents cover them).
+
+PRIORITY PLATFORMS:
 - Crowdfunding / indie: Kickstarter, Indiegogo, itch.io, GameJolt
 - Music: Bandcamp, SoundCloud, ReverbNation
-- Art communities: Tumblr, DeviantArt, ArtStation, Newgrounds, Fur Affinity
+- Art communities: Cara (cara.app), Tumblr, DeviantArt, ArtStation, Newgrounds, Fur Affinity
+- Freelance marketplaces: Upwork (public postings only)
 - Classifieds: Craigslist (creative gigs), Gumtree, Kijiji
 - Niche forums: TCG/Pokémon card communities, TTRPG/D&D forums, VTuber communities
 
