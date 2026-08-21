@@ -107,7 +107,12 @@ async function main() {
     const toTry = workingModel ? [workingModel] : candidates;
     for (const model of toTry) {
       try {
-        const { text, sources, usage } = await groundedGenerate({ apiKey: API_KEY, model, prompt });
+        const { text, sources, usage } = await groundedGenerate({
+          apiKey: API_KEY,
+          model,
+          prompt,
+          thinkingLevel: config.thinkingLevel,
+        });
         workingModel = model;
         // Rough cost estimate (gemini-3.6-flash: $1.50/1M in, $7.50/1M out;
         // thinking tokens bill as output). Grounding itself is free < 5k/mo.
