@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "post_id": "itch.io-onlyfortress-2d-4x",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "onlyfortress",
+    "title": "[2d Art][Paid/Revenue Share] Looking for a 2D artist for my live 4x mobile game",
+    "content": "Hello all! I have been developing my own game for almost 5 years. It is in a genre of 4x strategy where you control your own character, build buildings, control troops and do open world exploration. The game is mobile only with 12k downloads on Google Play (4.8 rating). Currently my game uses free assets with 2d 45 angle perspective. I want to change every single asset to be made by a single person in a unique & consistent style. Contact via reply on itch.io thread.",
+    "url": "https://itch.io/t/6810178/2d-artpaidrevenue-share-looking-for-a-2d-artist-for-my-live-4x-mobile-game",
+    "quality": "High Quality",
+    "budget": "Paid / Revenue Share",
+    "created_at": "2026-08-18T00:00:00Z"
+  },
+  {
+    "post_id": "craigslist-portland-cover-art",
+    "platform": "Craigslist",
+    "source": "Portland Creative Gigs",
+    "author": "Craigslist Poster",
+    "title": "GRAPHIC DESIGNER WANTED (COVER ART FOR MUSICIAN SINGLE)",
+    "content": "GRAPHIC DESIGNER WANTED (COVER ART FOR MUSICIAN SINGLE) in Portland. Compensation: Paid by the job, flexible pay. Commission work. Contact through Craigslist post reply.",
+    "url": "https://www.craigslist.org/view/d/portland-graphic-designer-wanted-cover/pgrF7xgYdy5DBKgTFoTDr5",
+    "quality": "High Quality",
+    "budget": "Paid by the job, flexible pay",
+    "created_at": "2026-08-18T00:00:00Z"
+  },
+  {
+    "post_id": "craigslist-la-set-illustrator",
+    "platform": "Craigslist",
+    "source": "Los Angeles Creative Gigs",
+    "author": "Craigslist Poster",
+    "title": "Set Illustrator/Designer Needed for Low Budget Indie Film",
+    "content": "Set Illustrator/Designer Needed for Low Budget Indie Film. Draw 'real' life big white house to be placed in Virtual Plates on virtual sets. Film students are encouraged to apply. Contact through Craigslist post reply.",
+    "url": "https://www.craigslist.org/view/d/los-angeles-set-illustrator-designer/426xw7Z6XmxsNbUjg7Ypxf",
+    "quality": "High Quality",
+    "budget": "$500 Cash gift",
+    "created_at": "2026-08-17T00:00:00Z"
+  }
+]
