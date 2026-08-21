@@ -9,6 +9,11 @@ RULES:
   closed/outdated/fulfilled requests.
 - Use only real search-grounded results. Every "url" must be an actual link
   returned by search — never invent or guess a URL.
+- The "url" MUST link DIRECTLY to the specific post/listing that shows THIS
+  exact request. Do NOT use a jobs-board homepage, a search-results page, a
+  category/tag page, or a site root (e.g. artstation.com/jobs,
+  craigslist.org/search/...). If you cannot find the direct post URL, OMIT
+  that lead entirely.
 - Return at most 25 leads.
 PLATFORMS (open web — do NOT search X, Reddit, or Meta apps; other agents cover those):
 - Crowdfunding / indie: Kickstarter, Indiegogo, itch.io, GameJolt
