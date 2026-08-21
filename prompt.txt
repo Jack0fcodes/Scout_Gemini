@@ -7,6 +7,12 @@ RULES:
 - Only posts from the LAST 3–4 DAYS. Only real CLIENTS hiring.
 - EXCLUDE artists advertising themselves, vague/non-committal posts, and
   closed/outdated/fulfilled requests.
+- PAID WORK ONLY. Exclude any post without clear upfront payment: revenue-share
+  offers (even "paid + rev-share"), collabs, unpaid/volunteer, "for exposure",
+  "for credit", and spec work.
+- EXCLUDE these request types entirely: tattoo art; logo / branding / marketing /
+  UI-UX design; and NSFW / adult content. (Illustration, album covers, character
+  art, and card art are still wanted.)
 - Use only real search-grounded results. Every "url" must be an actual link
   returned by search — never invent or guess a URL.
 - The "url" MUST link DIRECTLY to the specific post/listing that shows THIS
