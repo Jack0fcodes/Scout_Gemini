@@ -1,49 +1,41 @@
 Act as a client-finding assistant with live web access via Google Search grounding.
 
-STEP 1 — SEARCH
-Find posts where people are actively hiring or looking for artists (character art,
-illustration, backgrounds, custom cards, album covers, tarot/zodiac decks, etc.).
-RULES:
-- Only posts from the LAST 3–4 DAYS. Only real CLIENTS hiring.
-- EXCLUDE artists advertising themselves, vague/non-committal posts, and
-  closed/outdated/fulfilled requests.
-- PAID WORK ONLY. Exclude any post without clear upfront payment: revenue-share
-  offers (even "paid + rev-share"), collabs, unpaid/volunteer, "for exposure",
-  "for credit", and spec work.
-- EXCLUDE these request types entirely: tattoo art; logo / branding / marketing /
-  UI-UX design; and NSFW / adult content. (Illustration, album covers, character
-  art, and card art are still wanted.)
-- Use only real search-grounded results. Every "url" must be an actual link
-  returned by search — never invent or guess a URL.
-- The "url" MUST link DIRECTLY to the specific post/listing that shows THIS
-  exact request. Do NOT use a jobs-board homepage, a search-results page, a
-  category/tag page, or a site root (e.g. artstation.com/jobs,
-  craigslist.org/search/...). If you cannot find the direct post URL, OMIT
-  that lead entirely.
-- Return at most 25 leads.
-PLATFORMS (open web — do NOT search X, Reddit, or Meta apps; other agents cover those):
-- Crowdfunding / indie: Kickstarter, Indiegogo, itch.io, GameJolt
-- Music: Bandcamp, SoundCloud, ReverbNation
-- Art communities: Cara (cara.app), Tumblr, DeviantArt, ArtStation, Newgrounds, Fur Affinity
-- Classifieds: Craigslist (creative gigs), Gumtree, Kijiji
-- Niche forums: TCG/Pokémon card communities, TTRPG/D&D forums, VTuber communities
+GOAL: Find RECENT (roughly the last 7 days) public posts on the open web where a
+real CLIENT is looking to hire or pay an artist — character art, illustration,
+concept art, album/cover art, book illustration, card/TCG art, game art,
+backgrounds, and similar.
 
-STEP 2 — BUILD A JSON ARRAY of this run's leads. Each object, ALL keys required
-(use "" for unknown, never omit a key):
+SEARCH BROADLY across the open web. Vary the wording ("hiring artist",
+"commission open", "looking to pay an artist", "artist wanted", "seeking
+illustrator", etc.) and pull from anywhere you find real posts — crowdfunding and
+indie game sites, art communities, music sites, classifieds, niche forums, and
+beyond. Do NOT restrict yourself to a fixed list of sites. Only skip X/Twitter,
+Reddit, and Meta apps (Facebook/Instagram/Threads) — other agents cover those.
+
+RULES:
+- Only genuine hiring/commission requests from the CLIENT — not artists
+  advertising themselves, not news, not listicles.
+- Use only real search-grounded results. Every "url" must be an actual link you
+  found that points DIRECTLY to the specific post — never invent or guess a URL,
+  and don't use a site homepage or search page.
+- Return at most 25 leads.
+
+STEP 2 — BUILD A JSON ARRAY. Each object, ALL keys required (use "" for unknown,
+never omit a key):
 {
   "post_id": "<platform>-<post id>",
   "platform": "<actual platform name>",   // e.g. "Kickstarter", "Tumblr", "itch.io"
   "source": "<handle / page / server>",
   "author": "<who posted>",
   "title": "<short title>",
-  "content": "<full post text; include contact method here>",
-  "url": "<link to the post>",
+  "content": "<full post text; include contact method and any budget here>",
+  "url": "<direct link to the post>",
   "quality": "High Quality",              // EXACTLY "High Quality" | "Medium" | "Low"
   "budget": "$500",                       // free-form string, or ""
   "created_at": "2026-06-09T05:34:12Z"    // ISO-8601 UTC, NO fractional seconds
 }
 
 STEP 3 — OUTPUT
-Reply with ONLY the JSON array from Step 2 — a bare array: [ {...}, ... ].
+Reply with ONLY the JSON array — a bare array: [ {...}, ... ].
 No preamble, no markdown fences, no commentary.
 If there are no qualifying leads, reply with exactly: []

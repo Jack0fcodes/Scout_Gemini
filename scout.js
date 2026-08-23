@@ -17,7 +17,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import dotenv from "dotenv";
 import { groundedGenerate, extractJsonArray } from "./lib/gemini.js";
-import { mergeLeads } from "./lib/leads.js";
+import { mergeLeads, cleanLeads } from "./lib/leads.js";
 
 dotenv.config();
 
@@ -34,17 +34,6 @@ async function readJson(file, fallback) {
     return JSON.parse(await fs.readFile(file, "utf8"));
   } catch {
     return fallback;
-  }
-}
-
-// Drop leads that other agents own or that have an unusable URL.
-function isAllowed(lead, excluded) {
-  if (!lead?.url) return false;
-  try {
-    const host = new URL(lead.url).hostname.replace(/^www\./, "");
-    return !excluded.some((bad) => host === bad || host.endsWith("." + bad));
-  } catch {
-    return false; // not a real, parseable link
   }
 }
 
@@ -92,13 +81,30 @@ async function main() {
     : [config.model || "gemini-3.5-flash"];
   const maxLeads = config.maxLeadsInFile || 150;
   const passes = Math.max(1, config.passes || 1);
-  const excluded = config.excludePlatforms || [];
+  // Deterministic filter rules applied in code (the "cleaner"), tunable here.
+  const cleanOpts = {
+    excludePlatforms: config.excludePlatforms || [],
+    blockKeywords: config.blockKeywords || [],
+    rejectGenericUrls: config.rejectGenericUrls !== false,
+    paidOnly: !!config.paidOnly,
+  };
 
   const prompt = (await fs.readFile(PROMPT_PATH, "utf8")).trim();
   const existing = await readJson(LEADS_PATH, []);
   console.log(
     `Loaded ${existing.length} existing leads. Candidates: ${candidates.join(", ")}. Running ${passes} pass(es)…`
   );
+
+  // Re-clean the existing file so tightened rules apply retroactively.
+  const exClean = cleanLeads(existing, cleanOpts);
+  const exRemoved = existing.length - exClean.kept.length;
+  if (exRemoved > 0) {
+    const why = Object.entries(exClean.dropped)
+      .filter(([, n]) => n > 0)
+      .map(([k, n]) => `${k}:${n}`)
+      .join(" ");
+    console.log(`Re-cleaning existing: removing ${exRemoved} (${why})`);
+  }
 
   // Run one grounded pass, trying candidate models until one responds. Once a
   // model works, stick with it for the rest of the run.
@@ -124,17 +130,16 @@ async function main() {
         }
         const items = extractJsonArray(text);
         // Resolve grounding-redirect URLs to their real destinations first, so
-        // both the stored link and the platform filter use the true host.
+        // both the stored link and the code cleaner see the true host.
         await Promise.all(
           items.map(async (it) => {
             if (it && it.url) it.url = await resolveRedirect(it.url);
           })
         );
-        const allowed = items.filter((it) => isAllowed(it, excluded));
         console.log(
-          `  pass ${i} [${model}]: ${items.length} parsed, ${allowed.length} kept (grounded on ${sources.length} sources)`
+          `  pass ${i} [${model}]: ${items.length} parsed (grounded on ${sources.length} sources)`
         );
-        return allowed;
+        return items; // filtering happens in mergeLeads → cleanLeads
       } catch (err) {
         const detail = err.details ? ` | ${JSON.stringify(err.details.details || err.details.status || "")}` : "";
         console.warn(`  pass ${i} [${model}]: ${err.status || ""} ${err.message}${detail}`);
@@ -151,7 +156,7 @@ async function main() {
     console.warn("No candidate model succeeded — see errors above (likely free-tier/billing).");
   }
 
-  const merged = mergeLeads(existing, found, { maxLeads });
+  const merged = mergeLeads(existing, found, { maxLeads, clean: cleanOpts });
   const added = merged.length - existing.length;
   console.log(
     `\nDiscovered ${found.length} raw leads; file now has ${merged.length} (${added >= 0 ? "+" : ""}${added}).`
