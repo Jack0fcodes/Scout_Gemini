@@ -1,5 +1,17 @@
 [
   {
+    "post_id": "bsky-blisy.net",
+    "platform": "Bluesky",
+    "source": "@blisy.net",
+    "author": "im a blisy ._.",
+    "title": "Looking for an artist for basic commission",
+    "content": "Looking for an artist to do a basic comission for blisy.net. DM me here or discord for info. I'm down to work with your pricing and such, I don't think it'll be a huge project nor do I have a budget.",
+    "url": "https://bsky.app/profile/blisy.net",
+    "quality": "Medium",
+    "budget": "Negotiable / Open",
+    "created_at": "2026-08-22T12:00:00Z"
+  },
+  {
     "post_id": "itch-helpwanted-chen-maomao",
     "platform": "itch.io",
     "source": "Help Wanted or Offered - itch.io",
@@ -46,6 +58,18 @@
     "quality": "Medium",
     "budget": "Revenue Share / Future Paid",
     "created_at": "2026-08-20T11:00:00Z"
+  },
+  {
+    "post_id": "itch.io-3818900",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "TannerRozankovic",
+    "title": "AI 3D Pack Creator — bounty per pack + royalties",
+    "content": "Build game-ready 3D asset packs (modular kits, props, clothing) with our AI pipeline — prompt → concept → TRELLIS image-to-3D → pack → published on our marketplace. You get full training academy, local TRELLIS kit, prompt vault, pack blueprints, QA pre-check tool. Paid remote program: bounty per pack + royalties.",
+    "url": "https://itch.io/t/3818900/paid-remote-ai-3d-pack-creator-bounty-per-pack-royalties-contractor-program",
+    "quality": "Medium",
+    "budget": "Bounty per pack + royalties",
+    "created_at": "2026-08-20T10:00:00Z"
   },
   {
     "post_id": "upwork-3d-character-illustrator-for-nonprofit",
@@ -154,18 +178,6 @@
     "quality": "High Quality",
     "budget": "Paid by the job, flexible pay",
     "created_at": "2026-08-18T00:00:00Z"
-  },
-  {
-    "post_id": "itchio-gothic-regency-vn-artist",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Gothic Regency VN Dev",
-    "title": "[2D][PAID] Looking for Character Artist + Background Artist — Gothic Regency-Inspired Visual Novel",
-    "content": "Looking for expressive, stylized 2D character art and atmospheric background art for a commercial Gothic Regency-inspired visual novel. Looking for long-term collaboration. Please reply to the thread on itch.io with portfolio, rates, and turnaround time.",
-    "url": "https://itch.io/t/3936928/2dpaid-looking-for-character-artist-background-artist-gothic-regency-inspired-visual-novel",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-08-17T18:00:00Z"
   },
   {
     "post_id": "craigslist-la-set-illustrator",
