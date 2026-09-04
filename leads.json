@@ -1,5 +1,65 @@
 [
   {
+    "post_id": "bsky-dkmasters.bsky.social-1",
+    "platform": "Bluesky",
+    "source": "@dkmasters.bsky.social",
+    "author": "DK Masters",
+    "title": "Seeking Artist for Book Series Character Bios",
+    "content": "I want to add character bios to my website (transformationparadise.com) for my new book series \"Switch Adventures\". Looking for an artist who specializes in TG/TF characters, superheroes, anthros, and magical fantasy creatures. Please include a link to your sample work and rates. Thank you!",
+    "url": "https://bsky.app/profile/dkmasters.bsky.social",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-09-03T23:15:00Z"
+  },
+  {
+    "post_id": "bsky-chronotope.aramzs.xyz-1",
+    "platform": "Bluesky",
+    "source": "@chronotope.aramzs.xyz",
+    "author": "Aram Zucker-Scharff",
+    "title": "Looking to Hire Pixel Artist for Project",
+    "content": "Hey, are there pixel artists out there who people know of who are looking for work? Maybe a single project to start?",
+    "url": "https://bsky.app/profile/chronotope.aramzs.xyz",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-09-03T21:30:00Z"
+  },
+  {
+    "post_id": "itchio-mytholite-1",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Mytholite",
+    "title": "LFS[Art] Seeking artist(s) for long term collaboration",
+    "content": "We are seeking artist(s) for multiple projects. We are a startup indie studio in need of one or more artists to work with us on multiple projects. One project in particular is close to commercial release.",
+    "url": "https://itch.io/board/3/help-wanted-or-offered",
+    "quality": "High Quality",
+    "budget": "Revshare/Paid",
+    "created_at": "2026-09-03T11:00:00Z"
+  },
+  {
+    "post_id": "bsky-northernstarr.bsky.social-1",
+    "platform": "Bluesky",
+    "source": "@northernstarr.bsky.social",
+    "author": "north [16+]",
+    "title": "Looking to Commission Puppet OC Art",
+    "content": "im so happy she's so well loved by everyone here omg,, do any of you by any chance enjoy drawing puppet OCs? i'm looking to c0mm some art of them :o)",
+    "url": "https://bsky.app/profile/northernstarr.bsky.social",
+    "quality": "Medium",
+    "budget": "",
+    "created_at": "2026-09-02T18:20:00Z"
+  },
+  {
+    "post_id": "itchio-sqeekmcdohl-1",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Sqeek McDohl",
+    "title": "LFS[Paid] [Art] [Sound Effects] Looking for artist + sound effects furry JRPG",
+    "content": "I've been working on a 3D JRPG for the past year and am nearing release of the alpha demo. It will be an adaptation of my furry series. Seeking 2D/3D artist and sound effects artist. Paid gig.",
+    "url": "https://itch.io/board/3/help-wanted-or-offered",
+    "quality": "High Quality",
+    "budget": "Paid",
+    "created_at": "2026-09-02T14:10:00Z"
+  },
+  {
     "post_id": "itchio-nosdivad321-2d-mobile-game",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -24,16 +84,16 @@
     "created_at": "2026-09-01T17:00:00Z"
   },
   {
-    "post_id": "itchio-srummelil-office-asset-pack",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "srummelil",
-    "title": "[Godot][Art][Paid] Seeking artist to collaborate on develop of cohesive asset pack",
-    "content": "I'm building a first-person exploration / story discovery 'toy' set in an endless, slightly-wrong 1975–1995 office building — no enemies, no objectives, no HUD. Backrooms idea, but no horror, no critters. I need three things in large variety: office objects (desks, phones, filing cabinets, etc.), tileable wallpaper/wall/floor textures, and a small set of specific 'character' objects built to specific briefs. This is paid, and I'm a solo dev with no fixed deadline — steady work you can pick up alongside other projects.",
-    "url": "https://itch.io/t/3981500/godotartpaid-seeking-artist-to-collaborate-on-develop-of-cohesive-asset-pack",
+    "post_id": "opac-creativetides-2026",
+    "platform": "Oxnard Performing Arts Center",
+    "source": "OPAC Calls for Artists",
+    "author": "Oxnard Performing Arts Center Nonprofit / Channel Islands Harbor",
+    "title": "Creative Tides Artist-in-Residence Commission",
+    "content": "Inviting artists to apply for Creative Tides, a four-month artist-in-residence program exploring the connection between our coastal environment, community stewardship, and ocean stories. The selected artist will receive a $10,000 stipend plus a separate $2,500 project budget for materials, workshops, and community engagement.",
+    "url": "https://www.oxnardperformingarts.org/creative-tides.html",
     "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-09-01T14:00:00Z"
+    "budget": "$12,500",
+    "created_at": "2026-09-01T09:00:00Z"
   },
   {
     "post_id": "itchio-xioncstudio-fantasy-game-artist",
