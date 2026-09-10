@@ -1,5 +1,29 @@
 [
   {
+    "post_id": "itch.io-kento7979-PVGames",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "kento7979",
+    "title": "Looking for an Artist Experienced with PVGames-Style Assets",
+    "content": "Solo indie game developer from Japan looking for an artist who has experience working with PVGames assets, especially someone who can edit, adapt, or create additions that blend naturally with existing PVGames style. Developing a commercial 2D fantasy simulation RPG in Godot (.NET / C#). Paid work, long-term project. Consistency with PVGames visual style is required. Open to English and Japanese speakers.",
+    "url": "https://itch.io/t/3933250/paidartpvgamesgodotenjp-looking-for-an-artist-experienced-with-pvgames-style-assets",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-09-08T19:00:00Z"
+  },
+  {
+    "post_id": "itch.io-TheCupCardArt",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Tkayyy",
+    "title": "Card art - one real animal at a time for a free browser card battler",
+    "content": "Hello artists! I run The Cup, a free browser card game where every card is a real North American animal. Replacing emoji placeholders one at a time with commissioned paintings. What the job is: one animal, on one card, painted to sit inside the card frame. Ideally delivered in layers (background, creature, effects). What it pays: $50 to $80 per card depending on scope, commercial use included, paid on delivery, one card at a time. Contact via thread or Discord (tkyy). No AI-assisted work.",
+    "url": "https://itch.io/t/3933100/paid-card-art-one-real-animal-at-a-time-for-a-free-browser-card-battler",
+    "quality": "High Quality",
+    "budget": "$50-$80 per card",
+    "created_at": "2026-09-08T15:00:00Z"
+  },
+  {
     "post_id": "mastodon-113101827402891823",
     "platform": "Mastodon",
     "source": "@HadroSoft@mastodon.gamedev.place",
@@ -10,6 +34,18 @@
     "quality": "High Quality",
     "budget": "Paid",
     "created_at": "2026-09-08T12:00:00Z"
+  },
+  {
+    "post_id": "itch.io-t3932822",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "StoriesOfSurvival",
+    "title": "Seeking illustrator(s) for published post-collapse tabletop RPG",
+    "content": "Stories of Survival is a system-agnostic tabletop RPG framework for settlement management, survival and long-term consequences. The Public Alpha has recently launched on itch.io, and I'm beginning to look for artists for the eventual full release. The visual direction is grounded, human and lived-in: ordinary people surviving and rebuilding, worn clothing, repaired equipment, improvised infrastructure, abandoned or reclaimed environments. This is paid commercial work. Individual commissions and staged batches are possibilities. Generative AI will not be used. Contact via thread, extrarium@protonmail.ch or reply with portfolio/rates.",
+    "url": "https://itch.io/t/3932822/art-paid-seeking-illustrators-for-published-post-collapse-tabletop-rpg",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-09-05T12:00:00Z"
   },
   {
     "post_id": "bsky-dkmasters.bsky.social-1",
