@@ -6,5 +6,6 @@
   "excludePlatforms": ["x.com", "twitter.com", "reddit.com", "facebook.com", "instagram.com", "threads.net", "threads.com"],
   "blockKeywords": ["tattoo", "logo", "branding", "ui", "ux", "nsfw"],
   "rejectGenericUrls": true,
-  "paidOnly": true
+  "paidOnly": true,
+  "verifyUrls": true
 }

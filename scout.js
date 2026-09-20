@@ -65,6 +65,39 @@ async function resolveRedirect(url) {
   }
 }
 
+// Verify each lead URL actually resolves; drop only definitive 404/410 (dead or
+// hallucinated links). Login walls / transient errors are kept (benefit of the
+// doubt). Runs in the GitHub runner, which has open network access.
+async function verifyUrls(leads, { concurrency = 6, timeoutMs = 9000 } = {}) {
+  const dead = new Set();
+  let idx = 0;
+  async function worker() {
+    while (idx < leads.length) {
+      const my = idx++;
+      const url = leads[my]?.url;
+      if (!url) continue;
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+      try {
+        let res = await fetch(url, { method: "HEAD", redirect: "follow", signal: ctrl.signal });
+        if (res.status === 405 || res.status === 501) {
+          res = await fetch(url, { method: "GET", redirect: "follow", signal: ctrl.signal });
+        }
+        res.body?.cancel?.();
+        if (res.status === 404 || res.status === 410) dead.add(my);
+      } catch {
+        // network error / timeout → keep (don't drop on a transient failure)
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+  }
+  await Promise.all(
+    Array.from({ length: Math.min(concurrency, leads.length) }, worker)
+  );
+  return { kept: leads.filter((_, i) => !dead.has(i)), deadCount: dead.size };
+}
+
 async function main() {
   if (!API_KEY) {
     console.error(
@@ -156,7 +189,15 @@ async function main() {
     console.warn("No candidate model succeeded — see errors above (likely free-tier/billing).");
   }
 
-  const merged = mergeLeads(existing, found, { maxLeads, clean: cleanOpts });
+  let merged = mergeLeads(existing, found, { maxLeads, clean: cleanOpts });
+
+  // Verify links resolve; drop dead/hallucinated (404/410) ones.
+  if (config.verifyUrls) {
+    const v = await verifyUrls(merged);
+    if (v.deadCount) console.log(`URL check: dropped ${v.deadCount} dead link(s) (404/410)`);
+    merged = v.kept;
+  }
+
   const added = merged.length - existing.length;
   console.log(
     `\nDiscovered ${found.length} raw leads; file now has ${merged.length} (${added >= 0 ? "+" : ""}${added}).`
