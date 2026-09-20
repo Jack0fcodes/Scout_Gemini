@@ -12,18 +12,6 @@
     "created_at": "2026-09-19T00:00:00Z"
   },
   {
-    "post_id": "bsky-dkmasters",
-    "platform": "Bluesky",
-    "source": "dkmasters.bsky.social",
-    "author": "DK Masters",
-    "title": "Looking for artist for book series Switch Adventures character bios",
-    "content": "I want to add character bios to my website (transformationparadise.com) for my new book series 'Switch Adventures'. Looking for an artist who specializes in TG/TF characters, superheroes, anthros, and magical fantasy creatures. Please include a link to your sample work and rates. Thank you!",
-    "url": "https://bsky.app/profile/did:plc:jkm3zxz45bcn6ffrfux2zzou/feed/aaao557lbx4bg",
-    "quality": "High Quality",
-    "budget": "Paid",
-    "created_at": "2026-09-18T18:00:00Z"
-  },
-  {
     "post_id": "itch-northhack-1",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -34,6 +22,18 @@
     "quality": "Medium",
     "budget": "RevShare",
     "created_at": "2026-09-17T10:00:00Z"
+  },
+  {
+    "post_id": "remotive-fusebox-artist",
+    "platform": "Remotive",
+    "source": "Fusebox Games",
+    "author": "Fusebox Games",
+    "title": "[Hiring] 2D Middleweight Artist @ Fusebox Games",
+    "content": "Fusebox Games is hiring a remote 2D Middleweight Artist. Produce high quality art assets in-keeping with the Fusebox brand. Working alongside the Lead Artist to take concepts and ideas to final game ready assets. Produce high-quality character and background art.",
+    "url": "https://remotive.com/remote/jobs/design/artist-5920329",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-09-17T00:00:00Z"
   },
   {
     "post_id": "itch-4183618",
@@ -48,18 +48,6 @@
     "created_at": "2026-09-16T12:00:00Z"
   },
   {
-    "post_id": "itch-4134810",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Ahridan",
-    "title": "Low-poly painterly artist wanted as art partner — asymmetric RTS",
-    "content": "TL;DR: Solo programmer with a playable asymmetric RTS in Unity (working AI, single-player and local multiplayer, authored maps) looking for one 3D artist to own the visual identity of the game as a revenue-share partner. Style target: low-poly painterly — think Age of Darkness, Northgard, Age of Empires Online.",
-    "url": "https://itch.io/t/4134810",
-    "quality": "High Quality",
-    "budget": "Revenue Share",
-    "created_at": "2026-09-15T16:00:00Z"
-  },
-  {
     "post_id": "itch.io-Hulle-deckbuilder-bg",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -72,18 +60,6 @@
     "created_at": "2026-09-15T11:00:00Z"
   },
   {
-    "post_id": "itch.io-t0banbarnes-2d-rpg",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "t0banbarnes",
-    "title": "[Art][Contract Work][PAID] 2D Illustrator / Artist",
-    "content": "I'm looking for an artist willing to create/design assets for a simple 2D RPG. Job Type: Contract work that will last several months (part-time). Needs an artist who can design two different types of assets: RPG Battlers and profile images with emotions. Reply on the itch.io thread to apply.",
-    "url": "https://itch.io/t/6947263/artcontract-workpaid-2d-illustrator-artist-amateurs-or-new-artists-welcome",
-    "quality": "High Quality",
-    "budget": "Paid contract work",
-    "created_at": "2026-09-15T10:00:00Z"
-  },
-  {
     "post_id": "itch.io-fae-rpg-demo",
     "platform": "itch.io",
     "source": "Lauren",
@@ -93,6 +69,18 @@
     "url": "https://itch.io/t/6946141/concept-art-3d-seeking-artists-to-help-build-a-cosy-fae-rpg-demo-potential-revshare",
     "quality": "Medium",
     "budget": "Revshare",
+    "created_at": "2026-09-15T00:00:00Z"
+  },
+  {
+    "post_id": "remotive-parkcandy-artist",
+    "platform": "Remotive",
+    "source": "Park Candy",
+    "author": "Park Candy",
+    "title": "[Hiring] Artist @ Park Candy",
+    "content": "Park Candy is hiring a remote Artist. Salary: $100-$2000 per month. Location: Worldwide. Role Description: Strong artistic style in one or more of the following: Tiki & Polynesia; Mid-Century Modern; Concept Art. Ability to create artwork that translates seamlessly into vector or high-quality export formats; Strong sense of color, pattern, and storytelling through design.",
+    "url": "https://remotive.com/remote/jobs/design/artist-5876038",
+    "quality": "High Quality",
+    "budget": "$100-$2000 per month",
     "created_at": "2026-09-15T00:00:00Z"
   },
   {
@@ -108,42 +96,6 @@
     "created_at": "2026-09-12T12:00:00Z"
   },
   {
-    "post_id": "itch.io-fluffyduckyy-twistedfate",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "fluffyduckyy",
-    "title": "Looking for Character Concept Artist | Supporting Cast for VN",
-    "content": "Hi! I'm currently looking for a character concept artist to help design for my romance visual novel, Twisted Fate. This position is primarily for supporting and side characters, as another artist is currently handling the main cast. There may also be opportunities for additional character work later in development.",
-    "url": "https://itch.io/t/3932750",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-09-12T10:00:00Z"
-  },
-  {
-    "post_id": "itch-4125890",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "NorthhackMedia",
-    "title": "Northhack is recruiting Artists for Exploration & Space Shooter Games",
-    "content": "Northhack is expanding its internal teams across both studios and recruiting 2D/3D Artists for our Exploration game and Space Shooter game. As long as full-time positions are unavailable, collaborators retain ownership of created assets. Compensation includes a share of the game's net profits, distributed pro-rata based on investment. Reach out at social@northhackmedia.com or via Discord.",
-    "url": "https://itch.io/t/4125890",
-    "quality": "High Quality",
-    "budget": "Revenue Share",
-    "created_at": "2026-09-11T12:00:00Z"
-  },
-  {
-    "post_id": "bsky-dkmasters-character-bios",
-    "platform": "Bluesky",
-    "source": "@dkmasters.bsky.social",
-    "author": "DK Masters",
-    "title": "Looking for an artist for book series character bios",
-    "content": "I want to add character bios to my website (transformationparadise.com) for my new book series \"Switch Adventures\". Looking for an artist who specializes in TG/TF characters, superheroes, anthros, and magical fantasy creatures. Please include a link to your sample work and rates. Thank you!",
-    "url": "https://bsky.app/profile/dkmasters.bsky.social",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-09-11T01:00:00Z"
-  },
-  {
     "post_id": "itchio-850124",
     "platform": "itch.io",
     "source": "Spooktober 8th Annual Visual Novel Jam community » Recruitment",
@@ -154,30 +106,6 @@
     "quality": "Medium",
     "budget": "",
     "created_at": "2026-09-11T00:00:00Z"
-  },
-  {
-    "post_id": "bsky-louissouthard-pinups",
-    "platform": "Bluesky",
-    "source": "@louissouthard.bsky.social",
-    "author": "Louis Southard",
-    "title": "PAID ART GIG: Pinup Artists Wanted",
-    "content": "PAID ART GIG: I'm looking for FIFTEEN (15) artists to draw pinups for a project I'm currently working on. These positions are unavailable to those currently on the team in ANY capacity. All are welcome. Peers especially welcome! Email me at louissouthard(at)gmail(dot)com Thanks!",
-    "url": "https://bsky.app/profile/louissouthard.bsky.social",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-09-10T12:00:00Z"
-  },
-  {
-    "post_id": "bluesky-3lyuivfx3fs2o",
-    "platform": "Bluesky",
-    "source": "@distantmeadows.bsky.social",
-    "author": "distantmeadows",
-    "title": "Hiring Freelance or Part-Time Pixel Artist",
-    "content": "We are currently hiring! We are looking for a Pixel Artist (Freelance or Part-Time, d/f/m) who matches our very particular stylistic requirements! If you are interested, go to distantmeadows.com/jobs/pixel-artist/ for more information. #gamedev #indiegame #job #pixelart #art",
-    "url": "https://bsky.app/profile/distantmeadows.bsky.social/post/3lyuivfx3fs2o",
-    "quality": "High Quality",
-    "budget": "Paid (Freelance / Part-Time)",
-    "created_at": "2026-09-10T04:13:00Z"
   },
   {
     "post_id": "mastodon-hadrosoft-enigma-heart",
@@ -202,18 +130,6 @@
     "quality": "High Quality",
     "budget": "Paid",
     "created_at": "2026-09-09T00:00:00Z"
-  },
-  {
-    "post_id": "itch.io-kento7979-PVGames",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "kento7979",
-    "title": "Looking for an Artist Experienced with PVGames-Style Assets",
-    "content": "Solo indie game developer from Japan looking for an artist who has experience working with PVGames assets, especially someone who can edit, adapt, or create additions that blend naturally with existing PVGames style. Developing a commercial 2D fantasy simulation RPG in Godot (.NET / C#). Paid work, long-term project. Consistency with PVGames visual style is required. Open to English and Japanese speakers.",
-    "url": "https://itch.io/t/3933250/paidartpvgamesgodotenjp-looking-for-an-artist-experienced-with-pvgames-style-assets",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-09-08T19:00:00Z"
   },
   {
     "post_id": "itch.io-TheCupCardArt",
@@ -252,18 +168,6 @@
     "created_at": "2026-09-08T00:00:00Z"
   },
   {
-    "post_id": "itchio-t-4105230",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Miarus",
-    "title": "[Art] [Godot] [Paid] Looking for 2D/3D Artist for RPG/Sim Game",
-    "content": "Hey! Looking for a pixel artist for an indie RPG. 2D Pixel Artist: Character sprites with a layered/modular wardrobe system, 8-directional movement. Also need combat-specific sprite work and visual effects (hit sparks, slash trails, spell/elemental effects). 3D Terrain Artist: Greybox terrain and rough town layout for a Godot RPG, built for a fixed oblique/dimetric camera angle.",
-    "url": "https://itch.io/t/4105230/art-godot-paid-looking-for-2d3d-artist-for-rpgsim-game",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-09-06T00:00:00Z"
-  },
-  {
     "post_id": "itch.io-t3932822",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -288,16 +192,16 @@
     "created_at": "2026-09-05T00:00:00Z"
   },
   {
-    "post_id": "bsky-chronotope.aramzs.xyz-1",
-    "platform": "Bluesky",
-    "source": "@chronotope.aramzs.xyz",
-    "author": "Aram Zucker-Scharff",
-    "title": "Looking to Hire Pixel Artist for Project",
-    "content": "Hey, are there pixel artists out there who people know of who are looking for work? Maybe a single project to start?",
-    "url": "https://bsky.app/profile/chronotope.aramzs.xyz",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-09-03T21:30:00Z"
+    "post_id": "itchio-chromatopsis-revshare-roguelike",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered - itch.io",
+    "author": "Metralleto",
+    "title": "[Artist] [Gamemaker] [RevShare] Looking for programmer to build 2D Roguelike game!",
+    "content": "I'm Metralleto, an Artist and Writer. I'm building a Platformer Roguelike in Gamemaker named Chromatopsis. I plan on selling this game on Steam and am totally open to RevShare whenever it launches. Status: Still looking for someone as of September 2026.",
+    "url": "https://itch.io/t/6893298/artist-gamemaker-revshare-looking-for-programmer-to-build-2d-roguelike-game",
+    "quality": "Medium",
+    "budget": "Revshare",
+    "created_at": "2026-09-04T00:00:00Z"
   },
   {
     "post_id": "itch.io-3935277",
@@ -336,18 +240,6 @@
     "created_at": "2026-09-03T00:00:00Z"
   },
   {
-    "post_id": "bsky-northernstarr.bsky.social-1",
-    "platform": "Bluesky",
-    "source": "@northernstarr.bsky.social",
-    "author": "north [16+]",
-    "title": "Looking to Commission Puppet OC Art",
-    "content": "im so happy she's so well loved by everyone here omg,, do any of you by any chance enjoy drawing puppet OCs? i'm looking to c0mm some art of them :o)",
-    "url": "https://bsky.app/profile/northernstarr.bsky.social",
-    "quality": "Medium",
-    "budget": "",
-    "created_at": "2026-09-02T18:20:00Z"
-  },
-  {
     "post_id": "itchio-sqeekmcdohl-furry-jrpg",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -358,18 +250,6 @@
     "quality": "High Quality",
     "budget": "$100",
     "created_at": "2026-09-02T10:00:00Z"
-  },
-  {
-    "post_id": "itchio-nosdivad321-2d-mobile-game",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Nosdivad321",
-    "title": "[2D Art] [Mobile] [Hobby] Looking for a 2D artist to help me finish a mobile game",
-    "content": "Hello! I'm looking for a 2D artist to help me finish a mobile game that's already about 80% complete. I've been handling all the art myself, but I'm burnt out and want to focus fully on programming and production. What I need: 9 resources, each with 4 damage states (normal, slightly damaged, moderate damage, very damaged), and 3-4 particles for each resource. Style: 2D vector, stylised cartoon. I'd love to collaborate long-term, but if you prefer one-off paid work, feel free to message me with your rates.",
-    "url": "https://itch.io/t/3982000/2d-art-mobile-hobby-looking-for-a-2d-artist-to-help-me-finish-a-mobile-game",
-    "quality": "Medium",
-    "budget": "",
-    "created_at": "2026-09-01T20:00:00Z"
   },
   {
     "post_id": "itch-3982150",
@@ -466,18 +346,6 @@
     "quality": "High Quality",
     "budget": "Paid",
     "created_at": "2026-08-31T00:00:00Z"
-  },
-  {
-    "post_id": "bsky-rachelperciphone-fantasy-art",
-    "platform": "Bluesky",
-    "source": "@rachelperciphone.bsky.social",
-    "author": "Rachel Perciphone",
-    "title": "Looking for an artist for fantasy illustration assignment",
-    "content": "Looking for an ARTIST for an assignment I am unable to take. Fantasy illustration, dynamic scene, multiple characters. Drop your portfolio in the comments! The client will reach out if they see a fit. Good luck!",
-    "url": "https://bsky.app/profile/rachelperciphone.bsky.social",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-08-30T10:00:00Z"
   },
   {
     "post_id": "itchio-raine-3d-fantasy-game",
@@ -588,30 +456,6 @@
     "created_at": "2026-08-24T18:00:00Z"
   },
   {
-    "post_id": "freelancer-40667205",
-    "platform": "Freelancer",
-    "source": "Freelancer.com Projects",
-    "author": "Devrim Özsoy",
-    "title": "Board Game Illustrator Wanted – Pirate-Themed Card Game",
-    "content": "Hello everyone, My name is Devrim Özsoy, and I am an independent board game designer and publisher. I am currently looking for a professional illustrator for Black Flag, a competitive pirate-themed card game for two players. Each player commands a different pirate captain and competes to control several islands using fleets and tactical powers. The graphic design and card layouts are already being handled separately. This is an illustration commission consisting of 25 original illustrations: 1 main box illustration, 2 captain portraits, 2 pirate ship illustrations, 10 island landscapes, 10 action scenes for power cards. I am looking for a distinctive, stylized 2D illustration style suitable for a modern board game. Budget: $3000-$5000 USD.",
-    "url": "https://www.freelancer.com/projects/illustration/Board-Game-Illustrator-Wanted-Pirate",
-    "quality": "High Quality",
-    "budget": "$3000-$5000 USD",
-    "created_at": "2026-08-24T16:00:00Z"
-  },
-  {
-    "post_id": "itch.io-faith13-20260824",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "faith13",
-    "title": "[Art][3D][2D] Game Artist Wanted",
-    "content": "We are looking for an artist for our isometric multiplayer turn-based combat game. We need: Characters (8 directions: N, NE, E, SE, S, SW, W, NW), Weapons, Armor & clothing, Buildings & objects, Environment assets, Ground / terrain tiles, and Character animations. 2D and 3D artists are both welcome. Long-term collaboration with revenue share. Contact via Discord: pollux05258.",
-    "url": "https://itch.io/t/4988081",
-    "quality": "High Quality",
-    "budget": "Revenue Share",
-    "created_at": "2026-08-24T12:00:00Z"
-  },
-  {
     "post_id": "itchio-makisgames-pixel-artist",
     "platform": "itch.io",
     "source": "itch.io Help Wanted or Offered",
@@ -646,30 +490,6 @@
     "quality": "High Quality",
     "budget": "Paid",
     "created_at": "2026-08-24T00:00:00Z"
-  },
-  {
-    "post_id": "bsky-blisy.net-comission",
-    "platform": "Bluesky",
-    "source": "@blisy.net",
-    "author": "im a blisy ._.",
-    "title": "Looking for an artist to do a basic commission for website",
-    "content": "Looking for an artist to do a basic comission for blisy.net. DM me here or discord for info. I'm down to work with your pricing and such, I don't think it'll be a huge project nor do I have a budget.",
-    "url": "https://bsky.app/profile/blisy.net",
-    "quality": "Medium",
-    "budget": "",
-    "created_at": "2026-08-23T12:00:00Z"
-  },
-  {
-    "post_id": "itch-helpwanted-chen-maomao",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered - itch.io",
-    "author": "Chen_maomao",
-    "title": "Narrative Writer seeking 2D Artist & Ren'Py Dev for Sci-Fi Pilot Demo",
-    "content": "Narrative designer seeking a 2D artist and Ren'Py developer to collaborate on a Sci-Fi Pilot Demo project.",
-    "url": "https://itch.io/t/6822697/lfsunpaidrevshare-narrative-writer-seeking-2d-artist-renpy-dev-for-sci-fi-pilot-demo",
-    "quality": "Medium",
-    "budget": "Unpaid/RevShare",
-    "created_at": "2026-08-21T00:00:00Z"
   },
   {
     "post_id": "upwork-drawing-artist-educator",
@@ -729,18 +549,6 @@
     "url": "https://www.artstation.com/jobs/Edl5",
     "quality": "High Quality",
     "budget": "",
-    "created_at": "2026-08-20T00:00:00Z"
-  },
-  {
-    "post_id": "bsky-daesoogonberg",
-    "platform": "Bluesky",
-    "source": "@daesoogonberg.bsky.social",
-    "author": "Daeso Ögonberg",
-    "title": "Looking to hire an artist to give pixel art critique / advice",
-    "content": "Looking to hire an artist to give pixel art critique / advice. Anyone know anyone? #artjob #pixelart",
-    "url": "https://bsky.app/profile/daesoogonberg.bsky.social/post/3mtii7ma27k2q",
-    "quality": "Medium",
-    "budget": "Paid",
     "created_at": "2026-08-20T00:00:00Z"
   },
   {
@@ -804,18 +612,6 @@
     "created_at": "2026-08-19T02:00:00Z"
   },
   {
-    "post_id": "itch-helpwanted-kamii0",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered - itch.io",
-    "author": "kamii0",
-    "title": "Seeking Art Lead for 3D Japanese Psychological Horror (UE5 Vertical Slice)",
-    "content": "Seeking an Art Lead for a 3D Japanese psychological horror game project (Unreal Engine 5 vertical slice).",
-    "url": "https://itch.io/t/6814483/lfs-unpaidrevshare-art-seeking-art-lead-for-3d-japanese-psychological-horror-ue5-vertical-slice",
-    "quality": "Medium",
-    "budget": "Unpaid/Revshare",
-    "created_at": "2026-08-19T00:00:00Z"
-  },
-  {
     "post_id": "upwork-graphic-artist-cover-art-book",
     "platform": "Upwork",
     "source": "Upwork",
@@ -840,30 +636,6 @@
     "created_at": "2026-08-18T12:00:00Z"
   },
   {
-    "post_id": "craigslist-portland-cover-art",
-    "platform": "Craigslist",
-    "source": "Portland Creative Gigs",
-    "author": "Craigslist Poster",
-    "title": "GRAPHIC DESIGNER WANTED (COVER ART FOR MUSICIAN SINGLE)",
-    "content": "GRAPHIC DESIGNER WANTED (COVER ART FOR MUSICIAN SINGLE) in Portland. Compensation: Paid by the job, flexible pay. Commission work. Contact through Craigslist post reply.",
-    "url": "https://www.craigslist.org/view/d/portland-graphic-designer-wanted-cover/pgrF7xgYdy5DBKgTFoTDr5",
-    "quality": "High Quality",
-    "budget": "Paid by the job, flexible pay",
-    "created_at": "2026-08-18T00:00:00Z"
-  },
-  {
-    "post_id": "craigslist-la-set-illustrator",
-    "platform": "Craigslist",
-    "source": "Los Angeles Creative Gigs",
-    "author": "Craigslist Poster",
-    "title": "Set Illustrator/Designer Needed for Low Budget Indie Film",
-    "content": "Set Illustrator/Designer Needed for Low Budget Indie Film. Draw 'real' life big white house to be placed in Virtual Plates on virtual sets. Film students are encouraged to apply. Contact through Craigslist post reply.",
-    "url": "https://www.craigslist.org/view/d/los-angeles-set-illustrator-designer/426xw7Z6XmxsNbUjg7Ypxf",
-    "quality": "High Quality",
-    "budget": "$500 Cash gift",
-    "created_at": "2026-08-17T00:00:00Z"
-  },
-  {
     "post_id": "upwork-book-illustration-artist-needed",
     "platform": "Upwork",
     "source": "Upwork",
@@ -885,18 +657,6 @@
     "url": "https://itch.io/t/6808003/looking-for-artist-paid",
     "quality": "Medium",
     "budget": "Paid",
-    "created_at": "2026-08-17T00:00:00Z"
-  },
-  {
-    "post_id": "itch-recruitment-lost-wanderers",
-    "platform": "itch.io",
-    "source": "Recruitment - itch.io",
-    "author": "Writer and Audio Designer",
-    "title": "Writer and Audio Designer Looking for Artist",
-    "content": "Writer and audio designer team looking for an artist to collaborate on upcoming game jam entries following their submission to The Lost Wanderer's Horror Jam 2026.",
-    "url": "https://itch.io/t/6805739/closed-writer-and-audio-designer-looking-for-artist",
-    "quality": "Medium",
-    "budget": "",
     "created_at": "2026-08-17T00:00:00Z"
   }
 ]
