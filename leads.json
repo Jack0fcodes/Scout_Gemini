@@ -12,18 +12,6 @@
     "created_at": "2026-09-23T05:00:00Z"
   },
   {
-    "post_id": "itchio-lfs-cg-artist-soraz28",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Soraz28",
-    "title": "LFSLooking for a CG Artist! [Paid!]",
-    "content": "Hello! I recently started creating a game over RPG Maker! I desperately need someone to create my CG's for Cutscenes!",
-    "url": "https://itch.io/board/10020/help-wanted-or-offered",
-    "quality": "High Quality",
-    "budget": "Paid",
-    "created_at": "2026-09-21T12:00:00Z"
-  },
-  {
     "post_id": "itchio-lfs-paid-artist-lya",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -58,18 +46,6 @@
     "quality": "High Quality",
     "budget": "",
     "created_at": "2026-09-19T00:00:00Z"
-  },
-  {
-    "post_id": "itchio-jackhou66-pixelart",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "jackhou66",
-    "title": "[PAID] [2D Pixel Art] Looking for Character & Animation Artist",
-    "content": "Looking for a 2D pixel artist / animator for a dark horror RPG project.",
-    "url": "https://itch.io/t/6953128/paid-2d-pixel-artlooking-for-character-artist",
-    "quality": "High Quality",
-    "budget": "Paid",
-    "created_at": "2026-09-17T12:00:00Z"
   },
   {
     "post_id": "itchio-fluffyduckyy-vn",
@@ -130,18 +106,6 @@
     "quality": "High Quality",
     "budget": "Paid",
     "created_at": "2026-09-16T08:00:00Z"
-  },
-  {
-    "post_id": "itchio-3933000",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered - itch.io",
-    "author": "kokojojuijb / ashnaaay",
-    "title": "[PAID] [2D Pixel Art] Looking for Character Artist",
-    "content": "Looking for a 2D pixel artist for a dark horror RPG. Need someone good at horror, occult, grotesque and stylized character design, including character sprites and animations. Prefer artists with commercial experience. Payment can be fixed price per character. Please send portfolio, price range and availability via Discord or email.",
-    "url": "https://itch.io/t/6953128/paid-2d-pixel-artlooking-for-character-artist",
-    "quality": "High Quality",
-    "budget": "Fixed price per character",
-    "created_at": "2026-09-16T00:00:00Z"
   },
   {
     "post_id": "itch.io-Hulle-deckbuilder-bg",
@@ -312,18 +276,6 @@
     "created_at": "2026-09-05T00:00:00Z"
   },
   {
-    "post_id": "itchio-lfp-stories-of-survival",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "StoriesOfSurvival",
-    "title": "LFP[Art] [Paid] Seeking illustrator(s) for published post-collapse tabletop RPG",
-    "content": "Stories of Survival is a system-agnostic tabletop RPG framework for settlement management, survival and long-term consequences...",
-    "url": "https://itch.io/board/10020/help-wanted-or-offered?before=14524394",
-    "quality": "High Quality",
-    "budget": "Paid",
-    "created_at": "2026-09-04T12:00:00Z"
-  },
-  {
     "post_id": "itchio-chromatopsis-revshare-roguelike",
     "platform": "itch.io",
     "source": "Help Wanted or Offered - itch.io",
@@ -418,6 +370,18 @@
     "quality": "High Quality",
     "budget": "$12,500",
     "created_at": "2026-09-01T09:00:00Z"
+  },
+  {
+    "post_id": "itch-mytholite-collab",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Mytholite",
+    "title": "Seeking artist(s) for long term collaboration",
+    "content": "[Art] Seeking artist(s) for long term collaboration. We are a startup indie studio in need of one or more artists to work with us on multiple projects. One project in particular is close to commercial release. Willing to negotiate post-launch fixed sum, revenue share, or equity.",
+    "url": "https://itch.io/t/4125000",
+    "quality": "Medium",
+    "budget": "Rev-share / Fixed sum",
+    "created_at": "2026-09-01T08:15:00Z"
   },
   {
     "post_id": "itchio-3935210",
