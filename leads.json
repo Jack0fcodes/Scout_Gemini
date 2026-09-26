@@ -1,5 +1,29 @@
 [
   {
+    "post_id": "polycount-Manny26-rigger",
+    "platform": "Polycount",
+    "source": "Polycount Forums",
+    "author": "Manny26",
+    "title": "[PAID] Character rigger wanted (Maya to UE5)",
+    "content": "I'm creating a soulslike game in Unreal Engine 5 and require a character rigged. The model is created in Maya, and I need an FBX that imports cleanly into UE 5.8. Needs body rigging (UE5 Mannequin-compatible), belt/straps/pouches, short hood, open jacket. Please send examples to previous rigs.",
+    "url": "https://polycount.com/discussion/239216/paid-character-rigger-wanted-maya-to-ue5",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-09-24T18:12:00Z"
+  },
+  {
+    "post_id": "polycount-blender-generalists",
+    "platform": "Polycount",
+    "source": "Polycount Forums",
+    "author": "Polycount Member",
+    "title": "[PAID] Blender Generalists and Specialists to Create Original Work",
+    "content": "We have a paid opportunity available for generalists and specialists in Blender at rates starting at $25 USD/hour with potential to reach over $70 USD/hour with long-term engagements up to several months. This position is fully remote and provides flexible hours based on your availability. Our Blender team will create projects from scratch as original, cohesive assets that demonstrate professional artistic judgment and technical execution.",
+    "url": "https://polycount.com/discussion/239212/paid-blender-generalists-and-specialists-to-create-original-work",
+    "quality": "High Quality",
+    "budget": "$25-$70 / hour",
+    "created_at": "2026-09-24T00:00:00Z"
+  },
+  {
     "post_id": "itchio-northhackmedia-space",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -252,6 +276,18 @@
     "created_at": "2026-09-08T00:00:00Z"
   },
   {
+    "post_id": "itch.io-Miarus-rpg-sim-artist",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered - itch.io",
+    "author": "Miarus",
+    "title": "[Art] [Godot] [Paid] Looking for 2D/3D Artist for RPG/Sim Game",
+    "content": "Hey! Looking for a pixel artist for an indie RPG. I need character sprites and outfits that can mix and match without redrawing from scratch each time. 8-directional movement, core animation states (idle, walk, run, plus a few interaction poses). Combat-specific sprite work and visual effects (hit sparks, slash trails, spell effects). Also looking for 3D terrain artist for greybox terrain and rough town layout in Godot.",
+    "url": "https://itch.io/t/6902454/art-godot-paid-looking-for-2d3d-artist-for-rpgsim-game",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-09-06T00:00:00Z"
+  },
+  {
     "post_id": "itch.io-t3932822",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -382,18 +418,6 @@
     "quality": "Medium",
     "budget": "Rev-share / Fixed sum",
     "created_at": "2026-09-01T08:15:00Z"
-  },
-  {
-    "post_id": "itchio-3935210",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Mytholite",
-    "title": "Seeking artist(s) for long term collaboration",
-    "content": "We are seeking artist(s) for multiple projects. We are a startup indie studio in need of one or more artists to work with us on multiple projects. One project in particular is close to commercial release. As we are pre-revenue, we aren't in a position to pay fairly upfront, but we are committed to ensuring anyone working with us is compensated for their work. We are willing to negotiate a post-launch fixed sum, revenue share model (per-project), or equity in return for your work. Styles needed: Pixel (classic JRPG & Fallout 1/2 style) and painterly background art.",
-    "url": "https://itch.io/t/3935210/art-seeking-artists-for-long-term-collaboration",
-    "quality": "Medium",
-    "budget": "Revenue Share / Post-Launch Fixed Sum",
-    "created_at": "2026-09-01T00:00:00Z"
   },
   {
     "post_id": "artstation-2d-cat-creature-artist",
