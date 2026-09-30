@@ -264,6 +264,18 @@
     "created_at": "2026-09-15T00:00:00Z"
   },
   {
+    "post_id": "itch.io-t-3904812",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered - itch.io",
+    "author": "Ahridan",
+    "title": "[RevShare] [3D Artist] [Unity] Low-poly painterly artist wanted as art partner",
+    "content": "Low-poly painterly artist wanted as art partner for an asymmetric RTS with a playable build.",
+    "url": "https://itch.io/t/3904812/revshare-3d-artist-unity-low-poly-painterly-artist-wanted-as-art-partner-asymmetric-rts-playable-build",
+    "quality": "Medium",
+    "budget": "RevShare",
+    "created_at": "2026-09-15T00:00:00Z"
+  },
+  {
     "post_id": "itchio-lfs-concept-artist-fluffyduckyy",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -393,6 +405,18 @@
     "url": "https://mastodon.gamedev.place/@HadroSoft",
     "quality": "High Quality",
     "budget": "Paid",
+    "created_at": "2026-09-08T12:00:00Z"
+  },
+  {
+    "post_id": "itch.io-t-3912089",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered - itch.io",
+    "author": "kento7979",
+    "title": "[Paid][Art][PVGames][Godot][EN/JP] Looking for an Artist Experienced with PVGames-Style Assets",
+    "content": "English first / 日本語は後半にあります. Hi! I'm a solo indie developer looking for an artist experienced with PVGames-style assets for a Godot fantasy RPG.",
+    "url": "https://itch.io/t/3912089/paidartpvgamesgodotenjp-looking-for-an-artist-experienced-with-pvgames-style-assets-pvgames",
+    "quality": "High Quality",
+    "budget": "Paid (small paid task to start)",
     "created_at": "2026-09-08T12:00:00Z"
   },
   {
@@ -612,18 +636,6 @@
     "created_at": "2026-08-29T20:00:00Z"
   },
   {
-    "post_id": "itch.io-horror-3d-artist",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "MemoDev",
-    "title": "[Commercial, Rev-Share] Looking for a 3d artist for a horror game!",
-    "content": "hii! i'm looking for a 3D Artist for my horror game, The Keyhole, (inspired by The Doors). It is a mostly procedurally generated horror game exploring the story of a schizophrenic guy out of meds in a spaceship with no power or fuel.",
-    "url": "https://itch.io/t/4723102/commercial-rev-share-looking-for-a-3d-artist-for-a-horror-game",
-    "quality": "Medium",
-    "budget": "Rev-Share",
-    "created_at": "2026-08-29T14:30:00Z"
-  },
-  {
     "post_id": "artstation-dark-fantasy-overpaint-artist",
     "platform": "ArtStation",
     "source": "Brightstone Publishing",
@@ -802,18 +814,6 @@
     "quality": "Medium",
     "budget": "Revenue Share / Future Paid",
     "created_at": "2026-08-20T11:00:00Z"
-  },
-  {
-    "post_id": "itch.io-3818900",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "TannerRozankovic",
-    "title": "AI 3D Pack Creator — bounty per pack + royalties",
-    "content": "Build game-ready 3D asset packs (modular kits, props, clothing) with our AI pipeline — prompt → concept → TRELLIS image-to-3D → pack → published on our marketplace. You get full training academy, local TRELLIS kit, prompt vault, pack blueprints, QA pre-check tool. Paid remote program: bounty per pack + royalties.",
-    "url": "https://itch.io/t/3818900/paid-remote-ai-3d-pack-creator-bounty-per-pack-royalties-contractor-program",
-    "quality": "Medium",
-    "budget": "Bounty per pack + royalties",
-    "created_at": "2026-08-20T10:00:00Z"
   },
   {
     "post_id": "artstation-freelance-fantasy-artist",
