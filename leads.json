@@ -1,5 +1,41 @@
 [
   {
+    "post_id": "upwork-211",
+    "platform": "Upwork",
+    "source": "Upwork Client Job Board",
+    "author": "Client",
+    "title": "Illustrator Wanted for 2D Script-Based Series",
+    "content": "I'm looking to hire a detail-oriented illustrator who can create simple, clean, and minimal illustrations based on long-form video scripts (10–15 minutes of video narrated content). Each script will require anywhere from 120 to 200 illustrations... Payment: You'll be paid $10 for every 50 illustrations delivered.",
+    "url": "https://www.upwork.com/freelance-jobs/apply/Illustrator-Wanted-for-Script-Based-Series-225-250-Simple-Drawings-per-Script_~022105328101436498976/",
+    "quality": "Medium",
+    "budget": "$10 per 50 illustrations",
+    "created_at": "2026-09-30T00:00:00Z"
+  },
+  {
+    "post_id": "itchio-224",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered Forum",
+    "author": "Game Developer",
+    "title": "Pixel art cover for game",
+    "content": "Looking for an enthusiastic artist specifically for a pixel-art game cover. Contact via Discord: brandon_c0569.",
+    "url": "https://itch.io/t/7028818/im-looking-for-an-enthusiastic-artist",
+    "quality": "Medium",
+    "budget": "",
+    "created_at": "2026-09-30T00:00:00Z"
+  },
+  {
+    "post_id": "upwork-242",
+    "platform": "Upwork",
+    "source": "Upwork Job Board",
+    "author": "Client",
+    "title": "Filmmaker / Visual Artist Wanted — $200 Monthly Music Video",
+    "content": "We're looking for an independent filmmaker, videographer or visual artist to create a short 2–3 minute music video for us every month. We're building a new romance (dark romance-noir love stories) publishing/entertainment brand and plan to release an original pop song each month, with a simple, creative video for YouTube and social media. Budget: US$200 per video.",
+    "url": "https://www.upwork.com/freelance-jobs/apply/Filmmaker-Visual-Artist-Wanted-200-Monthly-Music-Video_~022103572446974510189/",
+    "quality": "High Quality",
+    "budget": "$200",
+    "created_at": "2026-09-25T00:00:00Z"
+  },
+  {
     "post_id": "polycount-Manny26-rigger",
     "platform": "Polycount",
     "source": "Polycount Forums",
@@ -21,6 +57,18 @@
     "url": "https://polycount.com/discussion/239212/paid-blender-generalists-and-specialists-to-create-original-work",
     "quality": "High Quality",
     "budget": "$25-$70 / hour",
+    "created_at": "2026-09-24T00:00:00Z"
+  },
+  {
+    "post_id": "upwork-217",
+    "platform": "Upwork",
+    "source": "Upwork Job Posting",
+    "author": "Client",
+    "title": "Looking for a Procreate Illustration Artist",
+    "content": "We're looking for an experienced Procreate illustration artist for ongoing creative work. 1) Must be highly skilled in Procreate 2) Strong illustration and drawing skills 3) Creative and detail-oriented 4) Able to create clean, professional artwork 5) Please share your portfolio and relevant Procreate work samples. LOOKING TO HIRE IMMEDIATELY!!! Fixed price: $40.00.",
+    "url": "https://www.upwork.com/freelance-jobs/apply/Looking-for-Procreate-Illustration-Artist-PROCREATE_~022103019176153155725/",
+    "quality": "High Quality",
+    "budget": "$40",
     "created_at": "2026-09-24T00:00:00Z"
   },
   {
