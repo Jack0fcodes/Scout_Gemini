@@ -1,5 +1,29 @@
 [
   {
+    "post_id": "itch.io-3",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Lilotech",
+    "title": "[PAID][3DArt] [Spanish / English] Seeking someone to make the art concept for my game!",
+    "content": "Seeking someone to make the art concept for my game! I want the same art environment for my 3D game.",
+    "url": "https://itch.io/board/10020/help-wanted-or-offered",
+    "quality": "High Quality",
+    "budget": "Paid",
+    "created_at": "2026-10-08T00:00:00Z"
+  },
+  {
+    "post_id": "itch.io-1",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "RJ",
+    "title": "[PAID] 2D Fantasy Artist Wanted for an Indie Mobile Project — Emerging Artists Welcome",
+    "content": "Hi! I'm RJ, an independent developer looking to commission original 2D fantasy artwork for an unreleased mobile app. I'd especially love to work with a small independent or emerging artist.",
+    "url": "https://itch.io/t/3932821/paid-2d-fantasy-artist-wanted-for-an-indie-mobile-project-emerging-artists-welcome",
+    "quality": "High Quality",
+    "budget": "Paid",
+    "created_at": "2026-10-05T00:00:00Z"
+  },
+  {
     "post_id": "itch.io-hockey-players-3d",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -10,6 +34,18 @@
     "quality": "High Quality",
     "budget": "",
     "created_at": "2026-10-04T14:00:00Z"
+  },
+  {
+    "post_id": "itch.io-11",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "NivaGames",
+    "title": "[PAID] Looking for Sprite Artist / 2D Artist — Large Digimon Game Project",
+    "content": "We are looking for Sprite Artists / 2D Artists to work on a large Digimon game project. Contact us on itch.io forum thread.",
+    "url": "https://itch.io/board/10020/help-wanted-or-offered",
+    "quality": "High Quality",
+    "budget": "Paid",
+    "created_at": "2026-10-03T00:00:00Z"
   },
   {
     "post_id": "itch.io-3dart-concept-game",
@@ -82,6 +118,18 @@
     "quality": "High Quality",
     "budget": "Paid commission",
     "created_at": "2026-09-29T00:00:00Z"
+  },
+  {
+    "post_id": "itch.io-7",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "The Clear Air Turbulence",
+    "title": "Animated Still Needed!",
+    "content": "Hi People, I need somebody to create a still...or slightly animated still (is that even a thing?) for a short movie I'm making.",
+    "url": "https://itch.io/board/10024/2d-art",
+    "quality": "Medium",
+    "budget": "Paid",
+    "created_at": "2026-09-28T00:00:00Z"
   },
   {
     "post_id": "upwork-242",
@@ -744,18 +792,6 @@
     "created_at": "2026-08-28T00:00:00Z"
   },
   {
-    "post_id": "itch.io-4711812",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Real8e",
-    "title": "[Paid][Pixel Artist] needed for 2D gothic/sci-fi \"Metroidvania\" type game",
-    "content": "Pixel Artist Wanted for: 'In Tobias' Shadow' — 2D Metroidvania. I'm looking for a pixel artist/animator to help develop the visual identity of In Tobias' Shadow, a dark atmospheric Metroidvania currently in development. Contact on Discord @Real8e.",
-    "url": "https://itch.io/t/4711812/paidpixel-artist-needed-for-2d-gothicsci-fi-metroidvania-type-game",
-    "quality": "High Quality",
-    "budget": "Paid",
-    "created_at": "2026-08-27T12:00:00Z"
-  },
-  {
     "post_id": "polycount-opsive-first-person-animator",
     "platform": "Polycount",
     "source": "Freelance Job Postings",
@@ -1029,18 +1065,6 @@
     "url": "https://itch.io/t/6808003/looking-for-artist-paid",
     "quality": "Medium",
     "budget": "Paid",
-    "created_at": "2026-08-17T00:00:00Z"
-  },
-  {
-    "post_id": "itch.io-6323419",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "kokojojuijb",
-    "title": "Looking for Character Artist + Background Artist — Gothic Regency-Inspired Visual Novel",
-    "content": "Looking for expressive, stylized 2D character art and atmospheric painterly 2D backgrounds for a gothic romance/mystery visual novel set in Regency England. Paid positions.",
-    "url": "https://itch.io/t/6323419",
-    "quality": "High Quality",
-    "budget": "",
     "created_at": "2026-08-17T00:00:00Z"
   }
 ]
