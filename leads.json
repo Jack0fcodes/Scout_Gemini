@@ -12,18 +12,6 @@
     "created_at": "2026-10-16T12:00:00Z"
   },
   {
-    "post_id": "itch-bloodline-2d-artist",
-    "platform": "itch.io",
-    "source": "itch.io Help Wanted or Offered",
-    "author": "BLOODLINE Team",
-    "title": "Looking for 2D Artist/Animator for Dark Fantasy Metroidvania BLOODLINE",
-    "content": "Building core team for BLOODLINE, an atmospheric 2.5D Dark Fantasy Metroidvania in Godot. Seeking 2D Character Artist & Animator for dark fantasy/gothic hand-drawn art styles (Ender Lilies style), sprite sheets, rigging, and combat animations. Revenue share opportunity.",
-    "url": "https://itch.io/t/7118601/rev-share-looking-for-2d-artistanimator-bonus-if-you-love-horrormystery-writing-for-dark-fantasy-metroidvania-bloodline-programmer-sound-designer-onboard",
-    "quality": "Medium",
-    "budget": "Revenue Share",
-    "created_at": "2026-10-13T12:00:00Z"
-  },
-  {
     "post_id": "itch.io-searat-minesweeper",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -154,6 +142,18 @@
     "quality": "High Quality",
     "budget": "",
     "created_at": "2026-10-04T14:00:00Z"
+  },
+  {
+    "post_id": "itchio-mundus-3d-voxel",
+    "platform": "itch.io",
+    "source": "itch.io Help Wanted Forum",
+    "author": "MUNDUS Development Team",
+    "title": "[RevShare] MUNDUS — Seeking 3D Voxel / Low-Poly Artist",
+    "content": "We are looking for an artist who loves retro-tactile aesthetics, industrial grit, and chunky low-poly geometry to craft modular assets for our Vertical Slice. Key deliverables: Modular timber mine support frames, scaffolding building-site pieces, gritty wasteland & frontier machinery, wearable diegetic items.",
+    "url": "https://itch.io/t/7041087/revshare-mundus-seeking-3d-voxel-low-poly-artist-for-systemic-survival-immersive-sim",
+    "quality": "Medium",
+    "budget": "Revenue Share",
+    "created_at": "2026-10-02T14:20:00Z"
   },
   {
     "post_id": "itch.io-theravia-creature-designer",
@@ -454,6 +454,18 @@
     "quality": "High Quality",
     "budget": "Freelance / Paid",
     "created_at": "2026-09-20T00:00:00Z"
+  },
+  {
+    "post_id": "itchio-aidventure-bg-artist",
+    "platform": "itch.io",
+    "source": "itch.io Help Wanted Forum",
+    "author": "Lya",
+    "title": "[PAID][Artist] Looking for an artist to make visual novels background pictures",
+    "content": "Looking for an artist to create background environments for visual novel updates covering specific locations like a creepy wooden house, castle, cyberpunk city, post-apo laboratory, forest, and tavern themes. Discord: codemcrafts or email djimatech@ilands.app.",
+    "url": "https://itch.io/t/6963533/paidartist-looking-for-an-artist-to-make-visual-novels-background-pictures",
+    "quality": "High Quality",
+    "budget": "Paid",
+    "created_at": "2026-09-19T16:30:00Z"
   },
   {
     "post_id": "itchio-t-4131580",
