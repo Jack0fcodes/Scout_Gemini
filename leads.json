@@ -1,5 +1,29 @@
 [
   {
+    "post_id": "itch.io-leviathandigital-2d-artist",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "LeviathanDigital",
+    "title": "Looking for 2D Artist for Long-Term Indie Project",
+    "content": "Seeking a 2D artist for a long-term indie game project launching on Steam.",
+    "url": "https://itch.io/t/7252704/art-looking-for-2d-artist-for-long-term-indie-project",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-28T00:00:00Z"
+  },
+  {
+    "post_id": "itch.io-fantasy-rpg-tilesets",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "RPG Dev",
+    "title": "Looking for Pixel Artist to help with Tileset & Map Artist for Fantasy RPG",
+    "content": "Developing a 2D RPG game and looking for a pixel artist to create game-ready tilesets and maps. Style: cozy fantasy village in detailed top-down 3/4 pixel art.",
+    "url": "https://itch.io/t/7191876/art-looking-for-pixel-artist-to-help-with-tileset-map-artist-for-fantasy-rpg",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-22T00:00:00Z"
+  },
+  {
     "post_id": "itchio-pay-game-fast",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -60,6 +84,30 @@
     "created_at": "2026-10-20T00:00:00Z"
   },
   {
+    "post_id": "itch.io-alexcl1-racket",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Alexcl1",
+    "title": "Looking for a pixel artist: tennis/padel racket + hand sprite",
+    "content": "Hi! I'm making an arcade game where you bounce balls at enemies with a racket, I need a clean pixel art tennis or padel racket held by a hand, with 3 frames (idle, hit, hard hit), about 32x48 px. Perspective matters: seen from behind, face-on to camera. Paid work. Contact email: alexcocolilu@gmail.com.",
+    "url": "https://itch.io/t/7176130/looking-for-a-pixel-artist-tennispadel-racket-hand-sprite",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-20T00:00:00Z"
+  },
+  {
+    "post_id": "itch.io-pixel-gta1-sprites",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Godot Indie Developer",
+    "title": "Looking for Pixel Artist – Tiny GTA 1 Style Top-Down Character Animations",
+    "content": "Currently developing a top-down open-world game in Godot inspired by original GTA 1. Looking for a pixel artist to create tiny top-down human character sprite sheets with 8-frame walking cycle (25x25 per frame). Paid work.",
+    "url": "https://itch.io/t/7146300/paid-looking-for-pixel-artist-tiny-gta-1-style-top-down-character-animations",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-17T00:00:00Z"
+  },
+  {
     "post_id": "itch-nvarisgames-3d",
     "platform": "itch.io",
     "source": "itch.io 3D Art Board",
@@ -94,6 +142,18 @@
     "quality": "Medium",
     "budget": "Revshare",
     "created_at": "2026-10-12T00:00:00Z"
+  },
+  {
+    "post_id": "itch.io-zhimeng-town-pixel",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Zhimeng Town Team",
+    "title": "Pixel artists wanted for Zhimeng Town — farming, jobs & economy",
+    "content": "Looking for a pixel artist to refine existing environment and isometric furniture assets for an indie farming, jobs & economy game built in Godot.",
+    "url": "https://itch.io/t/7097623/lfspixel-artgodot-pixel-artists-wanted-for-zhimeng-town-farming-jobs-economy",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-10T00:00:00Z"
   },
   {
     "post_id": "itch-3943801",
