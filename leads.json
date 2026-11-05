@@ -24,18 +24,6 @@
     "created_at": "2026-10-31T05:00:00Z"
   },
   {
-    "post_id": "itch.io-cozy-pixelart-boss-animator",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Riotson",
-    "title": "[PAID][HIRING] Pastel (Cozy) top-down pixel-art boss animator — Sprout Lands-compatible",
-    "content": "Hi everyone! I am working on a top-down farming/adventure game in GameMaker and am looking for a pixel artist who can design and animate a boss character. I'm using Sprout Lands assets by Cup Nooble, so I'd like something that fits alongside their pastel colours, rounded proportions and simple shading. I'd like to commission the character design first—one non-animated sprite that I can check beside my player and scenery. If it feels like a good fit, I'd then move on to animation. This is paid work, not revenue share. Could you give me a quote broken down into character design and animation, along with your availability?",
-    "url": "https://itch.io/t/7275666/paidhiring-pastel-cozy-top-down-pixel-art-boss-animator-sprout-lands-compatible",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-10-31T00:00:00Z"
-  },
-  {
     "post_id": "itchio-johnecheverria19-gas-giant",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -117,6 +105,18 @@
     "url": "https://itch.io/board/10020/help-wanted-or-offered",
     "quality": "High Quality",
     "budget": "Paid commission",
+    "created_at": "2026-10-21T00:00:00Z"
+  },
+  {
+    "post_id": "itch.io-lfs-card-game",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "itch_dev",
+    "title": "[LFS] [REV-SHARE] 2D Artist needed for a board game-inspired card game",
+    "content": "Hi everyone! Looking for a 2D artist who wants to create the art for my game. It's a card game inspired by a board game.",
+    "url": "https://itch.io/t/4155000/lfs-rev-share-2d-artist-needed-for-a-board-game-inspired-card-game",
+    "quality": "Medium",
+    "budget": "Rev-Share",
     "created_at": "2026-10-21T00:00:00Z"
   },
   {
@@ -216,6 +216,18 @@
     "created_at": "2026-10-14T00:00:00Z"
   },
   {
+    "post_id": "itch.io-paid-amazonia-sombria",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Amazônia Sombria",
+    "title": "[PAID] Seeking 2D Artists, Concept Artists, and Animators for an Amazon-Set RPG",
+    "content": "Hi, everyone! We're developing an independent project called Amazônia Sombria (Dark Amazon), an RPG set in the Amazon. Seeking 2D Artists, Concept Artists, and Animators.",
+    "url": "https://itch.io/t/4145000/paid-seeking-2d-artists-concept-artists-and-animators-for-an-amazon-set-rpg",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-14T00:00:00Z"
+  },
+  {
     "post_id": "itch.io-searat-minesweeper",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -226,6 +238,18 @@
     "quality": "Medium",
     "budget": "Revshare",
     "created_at": "2026-10-12T00:00:00Z"
+  },
+  {
+    "post_id": "itch.io-lfp-2d-fantasy-artist",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "eaphram",
+    "title": "LFP[PAID] 2D Fantasy Artist Wanted for an Indie Mobile Project",
+    "content": "Hi! I'm RJ, an independent developer looking to commission original 2D fantasy artwork for an unreleased mobile app.",
+    "url": "https://itch.io/t/4140000/lfppaid-2d-fantasy-artist-wanted-for-an-indie-mobile-project-emerging-artists",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-11T00:00:00Z"
   },
   {
     "post_id": "itch.io-zhimeng-town-pixel",
@@ -261,6 +285,18 @@
     "url": "https://www.artstation.com/jobs/K8KJ",
     "quality": "High Quality",
     "budget": "$1,300 / month",
+    "created_at": "2026-10-08T00:00:00Z"
+  },
+  {
+    "post_id": "itch.io-paid-astronaut-character",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "clickclickkate",
+    "title": "[PAID] [2D ART] [ANIMATION] Artist wanted for animated astronaut character",
+    "content": "Hi, I'm developing a top-down / high-three-quarter-view engineering colony simulation in Unity. I'm looking for a 2D art / animator for an animated astronaut character.",
+    "url": "https://itch.io/t/4135000/paid-2d-art-animation-artist-wanted-for-animated-astronaut-character",
+    "quality": "High Quality",
+    "budget": "",
     "created_at": "2026-10-08T00:00:00Z"
   },
   {
@@ -324,6 +360,18 @@
     "created_at": "2026-10-06T00:00:00Z"
   },
   {
+    "post_id": "itch.io-lfs-horror-card-game",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "brendanmayer",
+    "title": "LFS[Art] looking to commission artist for a horror card game",
+    "content": "hello everyone, I'm looking for someone confident in 2D art assets to commission roughly 10 card sprites for a horror card game.",
+    "url": "https://itch.io/t/4130000/lfsart-looking-to-commission-artist-for-a-horror-card-game",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-06T00:00:00Z"
+  },
+  {
     "post_id": "itchio-eaphram-2d-fantasy",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -336,18 +384,6 @@
     "created_at": "2026-10-05T12:00:00Z"
   },
   {
-    "post_id": "itch.io-1",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "RJ",
-    "title": "[PAID] 2D Fantasy Artist Wanted for an Indie Mobile Project — Emerging Artists Welcome",
-    "content": "Hi! I'm RJ, an independent developer looking to commission original 2D fantasy artwork for an unreleased mobile app. I'd especially love to work with a small independent or emerging artist.",
-    "url": "https://itch.io/t/3932821/paid-2d-fantasy-artist-wanted-for-an-indie-mobile-project-emerging-artists-welcome",
-    "quality": "High Quality",
-    "budget": "Paid",
-    "created_at": "2026-10-05T00:00:00Z"
-  },
-  {
     "post_id": "itch.io-clickclickkate-astronaut",
     "platform": "itch.io",
     "source": "Help Wanted or Offered - itch.io",
@@ -357,18 +393,6 @@
     "url": "https://itch.io/t/7062497/paid-2d-art-animation-artist-wanted-for-animated-astronaut-character-indie-colony-sim",
     "quality": "High Quality",
     "budget": "",
-    "created_at": "2026-10-05T00:00:00Z"
-  },
-  {
-    "post_id": "itchio-2d-fantasy-artist-2026",
-    "platform": "itch.io",
-    "source": "itch.io Community » Help Wanted or Offered",
-    "author": "RJ",
-    "title": "2D Fantasy Artist Wanted for an Indie Mobile Project",
-    "content": "Looking for a 2D digital artist for an indie mobile fantasy project. Scope includes equipment icons, treasure-item icons, and general fantasy artwork. Emerging artists welcome. Contact via thread reply or email at kitamiya909@gmail.com.",
-    "url": "https://itch.io/t/7064906/paid-2d-fantasy-artist-wanted-for-an-indie-mobile-project-emerging-artists-welcome",
-    "quality": "High Quality",
-    "budget": "Paid",
     "created_at": "2026-10-05T00:00:00Z"
   },
   {
