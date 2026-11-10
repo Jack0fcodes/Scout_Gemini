@@ -12,18 +12,6 @@
     "created_at": "2026-11-07T00:00:00Z"
   },
   {
-    "post_id": "itch-LFP-PAID-Graphic-Designer",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered Board",
-    "author": "aaron_946",
-    "title": "LFPLooking for a good graphic designer for paid work",
-    "content": "Looking for a good graphic designer for paid work. Budget is $500–$2000 depending on the project scope. If you're interested, please post your portfolio and contact info.",
-    "url": "https://itch.io/t/3991204/",
-    "quality": "High Quality",
-    "budget": "$500-$2000",
-    "created_at": "2026-11-06T14:30:00Z"
-  },
-  {
     "post_id": "itchio-synookyii-cherry-electra",
     "platform": "itch.io",
     "source": "2D Art Board",
@@ -46,6 +34,18 @@
     "quality": "High Quality",
     "budget": "",
     "created_at": "2026-10-31T05:00:00Z"
+  },
+  {
+    "post_id": "itch-sproutlandsboss",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "dithermoon",
+    "title": "Pastel (Cozy) top-down pixel-art boss animator — Sprout Lands-compatible",
+    "content": "Working on a top-down farming/adventure game in GameMaker and looking for a pixel artist who can design and animate a boss character compatible with Sprout Lands assets.",
+    "url": "https://itch.io/t/3990432/paidhiring-pastel-cozy-top-down-pixel-art-boss-animator-sprout-lands-compatible",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-31T00:00:00Z"
   },
   {
     "post_id": "itchio-johnecheverria19-gas-giant",
@@ -348,6 +348,18 @@
     "created_at": "2026-10-08T00:00:00Z"
   },
   {
+    "post_id": "itch-amazonia-sombria",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Amazônia Sombria",
+    "title": "Seeking 2D Artists, Concept Artists, and Animators for an Amazon-Set RPG",
+    "content": "We're developing an independent RPG project called Amazônia Sombria (Dark Amazon) set in the Amazon. Looking to hire 2D Artists, Concept Artists, and Animators.",
+    "url": "https://itch.io/t/3981234/paid-seeking-2d-artists-concept-artists-and-animators-for-an-amazon-set-rpg",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-10-08T00:00:00Z"
+  },
+  {
     "post_id": "artstation-paw-gaming-spine-animator",
     "platform": "ArtStation",
     "source": "ArtStation Jobs",
@@ -597,6 +609,18 @@
     "url": "https://polycount.com/discussion/237656/paid-remote-lead-artist-character-animator-unreal-engine-3d-action-adventure",
     "quality": "High Quality",
     "budget": "Paid",
+    "created_at": "2026-09-30T00:00:00Z"
+  },
+  {
+    "post_id": "itch-darkfantasykeyart",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "WireFrame",
+    "title": "Painterly dark-fantasy key art for a cult-horror roguelike game(main menu + Steam capsule)",
+    "content": "We're a 3-person indie team making a Horror game set in a public sun-worshipping church. Looking for: one main-menu illustration with grimy candlelit atmosphere delivered in separate layers for animation. Reply on itch.io or reach via Discord.",
+    "url": "https://itch.io/t/3932824/paidarthiringpainterly-dark-fantasy-key-art-for-a-cult-horror-roguelike-gamemain-menu-steam-capsule",
+    "quality": "High Quality",
+    "budget": "",
     "created_at": "2026-09-30T00:00:00Z"
   },
   {
