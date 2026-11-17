@@ -36,16 +36,16 @@
     "created_at": "2026-11-12T00:00:00Z"
   },
   {
-    "post_id": "itch.io-Equious-20261111",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "Equious",
-    "title": "[PAID] Seeking a Long-Term 2D Artist / Graphic Designer to Join an Indie Game Studio",
-    "content": "Hey everyone! I'm one of two people currently building a small independent game studio, and we're looking for an artist who might be interested in growing alongside us. We've got an existing relationship with a publisher that provides recurring commissions for game logos and Steam store artwork. Email equious@exhale-studios.dev with examples of your work.",
-    "url": "https://itch.io/t/7374625/paid-seeking-a-long-term-2d-artist-graphic-designer-to-join-an-indie-game-studio",
+    "post_id": "artstation-job-digital-artist-illustrator-branch",
+    "platform": "ArtStation",
+    "source": "ArtStation Jobs",
+    "author": "Branch",
+    "title": "Digital Artist/Illustrator for Animated Series",
+    "content": "Branch is hiring a talented 2D character artist/illustrator for Castaways animated series & cozy IP. Create production-ready 2D character concepts and illustrations with toy-like proportions and vibrant flat-style textures.",
+    "url": "https://www.artstation.com/jobs/dGZ6",
     "quality": "High Quality",
-    "budget": "Paid commissions",
-    "created_at": "2026-11-11T00:00:00Z"
+    "budget": "Paid Contract",
+    "created_at": "2026-11-10T09:00:00Z"
   },
   {
     "post_id": "artstation-freelance-character-illustrator-porkamoto",
@@ -118,6 +118,18 @@
     "quality": "High Quality",
     "budget": "",
     "created_at": "2026-11-03T18:00:00Z"
+  },
+  {
+    "post_id": "artstation-job-freelance-fantasy-artist",
+    "platform": "ArtStation",
+    "source": "ArtStation Jobs",
+    "author": "Indie RPG Publisher",
+    "title": "Freelance Fantasy Artist",
+    "content": "Seeking freelance fantasy artists to create detailed, high-quality fantasy illustrations based on provided scene descriptions and guidelines for upcoming tabletop/gaming publications.",
+    "url": "https://www.artstation.com/jobs/k3P1",
+    "quality": "High Quality",
+    "budget": "Paid per illustration",
+    "created_at": "2026-11-02T16:20:00Z"
   },
   {
     "post_id": "itchio-riotson-cozy-boss",
@@ -238,6 +250,18 @@
     "quality": "High Quality",
     "budget": "",
     "created_at": "2026-10-28T00:00:00Z"
+  },
+  {
+    "post_id": "itchio-t-part-time-animator-hd2d",
+    "platform": "itch.io",
+    "source": "itch.io/board/10028-help-wanted-or-offered",
+    "author": "Hexbit Studios",
+    "title": "Part-time animator for an HD-2D dungeon crawler",
+    "content": "Looking for a pixel art part-time animator for an HD-2D dungeon crawler game project. Contact via Discord: pixel_hashtag. Budget rate is $25 to $40/hr.",
+    "url": "https://itch.io/t/3986420/lfs-paid-pixel-art-part-time-animator-for-an-hd-2d-dungeon-crawler-25-to-40hr",
+    "quality": "High Quality",
+    "budget": "$25-$40/hr",
+    "created_at": "2026-10-27T12:00:00Z"
   },
   {
     "post_id": "itchio-t-4235801",
@@ -466,18 +490,6 @@
     "quality": "High Quality",
     "budget": "Paid",
     "created_at": "2026-10-16T12:00:00Z"
-  },
-  {
-    "post_id": "itch-painterly-dark-fantasy-key-art",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "WireFrame",
-    "title": "[PAID][ART][HIRING] Painterly dark-fantasy key art for a cult-horror roguelike game",
-    "content": "We're a 3-person indie team making a Horror game set in a public sun-worshipping church. Looking for one main-menu key art illustration.",
-    "url": "https://itch.io/t/3915000/paidarthiringpainterly-dark-fantasy-key-art-for-a-cult-horror-roguelike-game",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-10-16T08:00:00Z"
   },
   {
     "post_id": "itchio-gta1pixel-20261016",
@@ -788,18 +800,6 @@
     "content": "Looking for an enthusiastic artist specifically for a pixel-art game cover. Contact via Discord: brandon_c0569.",
     "url": "https://itch.io/t/7028818/im-looking-for-an-enthusiastic-artist",
     "quality": "Medium",
-    "budget": "",
-    "created_at": "2026-09-30T00:00:00Z"
-  },
-  {
-    "post_id": "itch.io-WireFrame-darkfantasy-keyart",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered - itch.io",
-    "author": "WireFrame",
-    "title": "Painterly dark-fantasy key art for a cult-horror roguelike game",
-    "content": "We're a 3-person indie team making a Horror game set in a public sun-worshipping church. Looking for: one main-menu illustration (16:9, min. 3840x2160), painted in LAYERS (background / figure / table / candles & flames separately) so we can animate it. Style: painterly, grimy texture, candlelight, muted bone / rust / dark red palette. Think Darkest Dungeon, Blasphemous, Inscryption mood. No AI-generated work. Possibly more work later (Steam capsule, character portraits).",
-    "url": "https://itch.io/t/7032188/paidarthiringpainterly-dark-fantasy-key-art-for-a-cult-horror-roguelike-gamemain-menu-steam-capsule",
-    "quality": "High Quality",
     "budget": "",
     "created_at": "2026-09-30T00:00:00Z"
   },
@@ -1774,29 +1774,5 @@
     "quality": "High Quality",
     "budget": "$20",
     "created_at": "2026-08-19T10:00:00Z"
-  },
-  {
-    "post_id": "upwork-fantasy-card-game-board-artist",
-    "platform": "Upwork",
-    "source": "Spellsteel",
-    "author": "Spellsteel Developer",
-    "title": "Fantasy Card Game Board Artist – Premium Battlefield Design",
-    "content": "We are looking for an experienced fantasy game artist to design a premium battlefield/board for our PvP card game, Spellsteel. We want a new design from scratch, not a repaint of the existing board. For artistic quality and overall direction, Clash Royale style.",
-    "url": "https://www.upwork.com/freelance-jobs/apply/Fantasy-Card-Game-Board-Artist-Premium-Battlefield-Design_~022090094887713063680/",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-08-19T08:00:00Z"
-  },
-  {
-    "post_id": "upwork-digital-artist-shirt-design",
-    "platform": "Upwork",
-    "source": "Upwork",
-    "author": "Upwork Client",
-    "title": "Looking for digital artist to recreate shirt design for clothing brand (no A.I.)",
-    "content": "Hey everyone! I have three t-shirt design ideas concepted with AI that I need brought to life for a clothing brand relaunch. The brand is based in Okinawa, and the theme for this collection is 'Midnight'. Need digital artist to digitally hand-draw, trace, and polish them.",
-    "url": "https://www.upwork.com/freelance-jobs/apply/Looking-for-digital-artist-recreate-shirt-design-for-clothing-brand_~022089903430163198989/",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-08-19T02:00:00Z"
   }
 ]
