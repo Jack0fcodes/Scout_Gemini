@@ -84,6 +84,18 @@
     "created_at": "2026-11-09T07:43:00Z"
   },
   {
+    "post_id": "itchio-2d-env-props-artist",
+    "platform": "itch.io",
+    "source": "itch.io Help Wanted",
+    "author": "Maryam Teima",
+    "title": "[2D ENV. & PROPS ARTIST] Hiring for Card Game 3-6 months production [REV SHARE]",
+    "content": "Looking for a 2D artist to illustrate 2D environment elements (walls, roofs, floors) and 2D isometric props for a 3D projected card game. Payment: Revenue share split equally with contract.",
+    "url": "https://itch.io/t/3971234/2d-env-props-artist-hiring-for-card-game-3-6-months-production-rev-share",
+    "quality": "High Quality",
+    "budget": "Rev-Share",
+    "created_at": "2026-11-07T15:30:00Z"
+  },
+  {
     "post_id": "itchio-t-3-6-months-cardgame",
     "platform": "itch.io",
     "source": "Creativity & Art / 2D Art Forum",
@@ -216,6 +228,18 @@
     "created_at": "2026-10-28T14:00:00Z"
   },
   {
+    "post_id": "lemmasoft-assistant-artist-oct2026",
+    "platform": "Lemma Soft Forums",
+    "source": "Lemma Soft Forums",
+    "author": "Anonymous Client",
+    "title": "[OPEN][PAID] Assistant Artist Position",
+    "content": "Seeking Assistant Artist for CG concept sketches, lineart, and flat shading. Minimum 2 approved CG concept sketches per week. Pay: $150 USD/Month. Duration: October 2026 - April 2027.",
+    "url": "https://lemmasoft.renai.us/forums/viewtopic.php?f=62&t=68102",
+    "quality": "High Quality",
+    "budget": "$150/month",
+    "created_at": "2026-10-28T12:00:00Z"
+  },
+  {
     "post_id": "lemmasoft-71312",
     "platform": "Lemma Soft Forums",
     "source": "We are offering Paid Work",
@@ -240,16 +264,16 @@
     "created_at": "2026-10-28T00:00:00Z"
   },
   {
-    "post_id": "artstation-freelance-fantasy-artist-clicky",
-    "platform": "ArtStation",
-    "source": "Clicky Games",
-    "author": "Clicky Games",
-    "title": "Freelance Fantasy Artist",
-    "content": "Seeking freelance illustrators to create fantasy artworks similar to TCG art or tabletop RPG scenes (DND, MTG, Hearthstone style). Contract-based compensation per artwork.",
-    "url": "https://www.artstation.com/jobs/QFqE",
+    "post_id": "itchio-pixel-art-animator",
+    "platform": "itch.io",
+    "source": "itch.io Help Wanted",
+    "author": "Jack (Hexbit Studios)",
+    "title": "[LFS] [Paid] [Pixel Art] Part-time animator for an HD-2D dungeon crawler, $25 to $40/hr",
+    "content": "Hiring a part-time pixel art animator for an HD-2D dungeon crawler game. Must provide layered Aseprite files and time-lapse process. Contact jack@hexbitstudios.com with portfolio and rate.",
+    "url": "https://itch.io/t/3965412/lfs-paid-pixel-art-part-time-animator-for-an-hd-2d-dungeon-crawler-25-to-40hr",
     "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-10-28T00:00:00Z"
+    "budget": "$25-$40/hr",
+    "created_at": "2026-10-27T18:00:00Z"
   },
   {
     "post_id": "itchio-t-part-time-animator-hd2d",
@@ -1762,17 +1786,5 @@
     "quality": "High Quality",
     "budget": "$25-$35/hr",
     "created_at": "2026-08-19T18:00:00Z"
-  },
-  {
-    "post_id": "upwork-childrens-book-illustrator-character-design",
-    "platform": "Upwork",
-    "source": "Upwork",
-    "author": "Upwork Client",
-    "title": "Children's Book Illustrator Needed — Character Design",
-    "content": "We are looking for a creative illustrator to design 2 to 5 original characters for a children's book. The characters should have a fun, friendly, and appealing style suitable for young children. We are looking for an illustrator who can bring simple character descriptions to life while maintaining a consistent visual style.",
-    "url": "https://www.upwork.com/freelance-jobs/apply/Children-Book-Illustrator-Needed-Character-Design_~022090070214981798311/",
-    "quality": "High Quality",
-    "budget": "$20",
-    "created_at": "2026-08-19T10:00:00Z"
   }
 ]
