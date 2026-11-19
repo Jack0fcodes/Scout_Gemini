@@ -84,30 +84,6 @@
     "created_at": "2026-11-09T07:43:00Z"
   },
   {
-    "post_id": "itchio-2d-env-props-artist",
-    "platform": "itch.io",
-    "source": "itch.io Help Wanted",
-    "author": "Maryam Teima",
-    "title": "[2D ENV. & PROPS ARTIST] Hiring for Card Game 3-6 months production [REV SHARE]",
-    "content": "Looking for a 2D artist to illustrate 2D environment elements (walls, roofs, floors) and 2D isometric props for a 3D projected card game. Payment: Revenue share split equally with contract.",
-    "url": "https://itch.io/t/3971234/2d-env-props-artist-hiring-for-card-game-3-6-months-production-rev-share",
-    "quality": "High Quality",
-    "budget": "Rev-Share",
-    "created_at": "2026-11-07T15:30:00Z"
-  },
-  {
-    "post_id": "itchio-t-3-6-months-cardgame",
-    "platform": "itch.io",
-    "source": "Creativity & Art / 2D Art Forum",
-    "author": "Maryam Teima",
-    "title": "[2D ENV. & PROPS ARTIST] Hiring for Card Game 3-6 months production [REV SHARE]",
-    "content": "2D Artist Roles: Illustrating 2D walls, roofs & floors projected on planes of the 3D environment. Create 2D isometric props to be placed in the 3D environment. About the Game: The game follows a 12 year old and his passion with playing cards... Team & Progress: Currently a two-person team, a 3D artist & 2D artist/writer. Payment: Revenue share split equally amongst all members, with a written contract/agreement. Part-time commitment: ~28hrs/week.",
-    "url": "https://itch.io/t/3932782/2d-env-props-artist-hiring-for-card-game-3-6-months-production-rev-share",
-    "quality": "High Quality",
-    "budget": "Revenue Share",
-    "created_at": "2026-11-07T00:00:00Z"
-  },
-  {
     "post_id": "itchio-t-2591604",
     "platform": "itch.io",
     "source": "itch.io Community / Help Wanted or Offered",
@@ -238,18 +214,6 @@
     "quality": "High Quality",
     "budget": "$150/month",
     "created_at": "2026-10-28T12:00:00Z"
-  },
-  {
-    "post_id": "lemmasoft-71312",
-    "platform": "Lemma Soft Forums",
-    "source": "We are offering Paid Work",
-    "author": "otomelover23",
-    "title": "[OPEN][PAID] Assistant Artist Position",
-    "content": "Hello! I'm a passionate dev working on a big game with my wonderful team. We've got major deadlines approaching, and we need help! The game we're creating is a dark, fantasy, isekai otome. Position: Assistant Artist. Pay: $150USD/Month. Duration: October 2026 - April 2027. Responsibilities: Minimum of 2 approved CG concept sketches/week, assisting with lineart and flat shading as needed. Requirements: 18+, PayPal, strictly no AI. DM author on forum with portfolio.",
-    "url": "https://lemmasoft.renai.us/forums/viewtopic.php?t=71312",
-    "quality": "High Quality",
-    "budget": "$150USD/Month",
-    "created_at": "2026-10-28T02:33:00Z"
   },
   {
     "post_id": "itch.io-leviathandigital-2d-artist",
@@ -1762,29 +1726,5 @@
     "quality": "Medium",
     "budget": "Revenue Share / Future Paid",
     "created_at": "2026-08-20T11:00:00Z"
-  },
-  {
-    "post_id": "upwork-3d-character-illustrator-for-nonprofit",
-    "platform": "Upwork",
-    "source": "Upwork",
-    "author": "Nonprofit Client",
-    "title": "3D Character Illustrator for Nonprofit",
-    "content": "We're seeking a talented 3D character illustrator/designer to create an original set of static characters for a children and family nonprofit. The style should feel cute, bubbly, and Pixar-inspired, with the warmth of a children's storybook. The project includes one main child character based on a real person and several playful companion characters with distinct shapes, textures, personalities, and a wide range of emotions. No animation is needed.",
-    "url": "https://www.upwork.com/freelance-jobs/apply/Character-Illustrator-for-Nonprofit_~022090118256298783757/",
-    "quality": "High Quality",
-    "budget": "$300",
-    "created_at": "2026-08-19T19:00:00Z"
-  },
-  {
-    "post_id": "itch.io-2d-vfx-paid-looking-for-unity-vfx-artist",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "EntangledRedPanda",
-    "title": "Looking for Unity VFX Artist experienced with Shaders",
-    "content": "Hey everyone! I've been developing a 2D arena shooter game with bioelectrical creatures in Unity, for over a year now. I'm looking for a VFX artist to help with development. The game features bioelectric creatures, various gun types from energy-beam weapons to shotguns and rocket launchers, bioelectric shields, dashing + down-thrusting, and enemies that can wander the whole map to chase you. Much of the core art and gameplay is already implemented. I'm looking for someone who can both polish existing art with VFX and add new VFX ($25-35/hr). Open to contacting over private messages on itch.io.",
-    "url": "https://itch.io/t/6808660/2d-vfx-paid-looking-for-unity-vfx-artist-experienced-with-shaders-25-35hr",
-    "quality": "High Quality",
-    "budget": "$25-$35/hr",
-    "created_at": "2026-08-19T18:00:00Z"
   }
 ]
