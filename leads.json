@@ -192,6 +192,18 @@
     "created_at": "2026-10-29T00:00:00Z"
   },
   {
+    "post_id": "itchio-6284910",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "JohnEcheverria19",
+    "title": "Pixel art concept: gas giant background (50-100 USD)",
+    "content": "The job: One concept / mood board piece for the level background of World 1 of our game. Reference art only, we implement. Budget: $50-100 USD.",
+    "url": "https://itch.io/t/6284910/paid-pixel-art-concept-gas-giant-background-50-100-usd",
+    "quality": "High Quality",
+    "budget": "$50-$100",
+    "created_at": "2026-10-29T00:00:00Z"
+  },
+  {
     "post_id": "itchio-dattebayo50-metahuman",
     "platform": "itch.io",
     "source": "Help Wanted or Offered",
@@ -357,6 +369,18 @@
     "url": "https://itch.io/t/4221045/lfs-rev-share-2d-artist-needed-for-a-board-game-inspired-card-game-prototype-video-included",
     "quality": "Medium",
     "budget": "Rev-Share (50/50)",
+    "created_at": "2026-10-21T00:00:00Z"
+  },
+  {
+    "post_id": "itchio-6272841",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "2173369098",
+    "title": "Pixel artists wanted for Zhimeng Town — farming, jobs & economy",
+    "content": "Pixel artists wanted for Zhimeng Town game project. Looking for environment, props, and character animation. Open to discussing scope, compensation, and schedule for asset sets.",
+    "url": "https://itch.io/t/6272841/lfspixel-artgodot-pixel-artists-wanted-for-zhimeng-town-farming-jobs-economy",
+    "quality": "High Quality",
+    "budget": "",
     "created_at": "2026-10-21T00:00:00Z"
   },
   {
@@ -682,18 +706,6 @@
     "quality": "High Quality",
     "budget": "",
     "created_at": "2026-10-04T14:00:00Z"
-  },
-  {
-    "post_id": "itchio-astronaut-sim",
-    "platform": "itch.io",
-    "source": "Help Wanted or Offered",
-    "author": "clickclickkate",
-    "title": "[PAID] [2D ART] [ANIMATION] Artist wanted for animated astronaut character – indie colony sim",
-    "content": "Developing a top-down / high-three-quarter-view engineering colony simulation in Unity. Looking for a 2D artist/animator to create the game's astronaut character. Clean, colourful, illustrated sci-fi style with strong outlines. Readability and strong silhouette are key. Reply to post on itch.io or reach out via Discord.",
-    "url": "https://itch.io/t/3932824",
-    "quality": "High Quality",
-    "budget": "$30+",
-    "created_at": "2026-10-04T00:00:00Z"
   },
   {
     "post_id": "polycount-ue5-environment-artist-stylized-forest",
@@ -1726,5 +1738,17 @@
     "quality": "Medium",
     "budget": "Revenue Share / Future Paid",
     "created_at": "2026-08-20T11:00:00Z"
+  },
+  {
+    "post_id": "itchio-6228392",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "itch_user_VN",
+    "title": "Looking for Character Artist + Background Artist — Gothic Regency-Inspired Visual Novel",
+    "content": "Hi! I'm looking for two artists for a gothic romance/mystery visual novel set in a fictional, Regency-inspired version of 19th-century England: 1. Character Artist (expressive, stylized 2D character art/sprites). 2. Background Artist (atmospheric, painterly 2D backgrounds). These are two separate paid commercial positions.",
+    "url": "https://itch.io/t/6228392/2dpaid-looking-for-character-artist-background-artist-gothic-regency-inspired-visual-novel",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-08-17T00:00:00Z"
   }
 ]
