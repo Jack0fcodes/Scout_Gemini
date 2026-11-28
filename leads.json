@@ -1,5 +1,29 @@
 [
   {
+    "post_id": "polycount-242",
+    "platform": "Polycount",
+    "source": "Polycount Forums",
+    "author": "Polish Short Film Team",
+    "title": "RECRUITING 3D ARTISTS & 3D ANIMATORS - Join our animated film production",
+    "content": "Putting together the 3D production team for an independent ~15-minute animated short film following a group of graffiti artists planning a hit on a metro train. Looking for 3D artists and animators to join from the production stage.",
+    "url": "https://polycount.com/discussion/239572/recruiting-3d-artists-3d-animators-join-our-animated-film-production",
+    "quality": "Medium",
+    "budget": "",
+    "created_at": "2026-11-25T00:00:00Z"
+  },
+  {
+    "post_id": "itch-114b",
+    "platform": "itch.io",
+    "source": "Help Wanted or Offered",
+    "author": "Sangmin Lee",
+    "title": "[LFS] [Art] [RevShare] The Misfit Shelter — Seeking a Lead 2D Artist for a Mobile Animated Game",
+    "content": "Sangmin Lee, game designer based in South Korea, leading design and production on The Misfit Shelter. Seeking a Lead 2D Artist for a mobile animated project under revenue share terms.",
+    "url": "https://itch.io/board/10020/help-wanted-or-offered?before=14599049",
+    "quality": "High Quality",
+    "budget": "RevShare",
+    "created_at": "2026-11-25T00:00:00Z"
+  },
+  {
     "post_id": "itchio-kaloth-monstermaster",
     "platform": "itch.io",
     "source": "Help Wanted or Offered - itch.io",
@@ -192,6 +216,18 @@
     "created_at": "2026-11-03T18:00:00Z"
   },
   {
+    "post_id": "polycount-246",
+    "platform": "Polycount",
+    "source": "Polycount Forums",
+    "author": "Anonymous Client",
+    "title": "[PAID] [REMOTE] Lead Game Artist / Hands-on Art Director — Stylized 2D/2.5D — Unity",
+    "content": "Specifically looking for an artist capable of creating a new visual identity. The Lead Artist would ideally contribute to overall visual direction, character design, environment/world design, game-ready 2D/2.5D asset production, and production planning.",
+    "url": "https://polycount.com/discussion/239429/paid-remote-lead-game-artist-hands-on-art-director-stylized-2d-2-5d-unity",
+    "quality": "High Quality",
+    "budget": "",
+    "created_at": "2026-11-03T00:00:00Z"
+  },
+  {
     "post_id": "artstation-job-freelance-fantasy-artist",
     "platform": "ArtStation",
     "source": "ArtStation Jobs",
@@ -249,6 +285,18 @@
     "url": "https://itch.io/t/3990432/paidhiring-pastel-cozy-top-down-pixel-art-boss-animator-sprout-lands-compatible",
     "quality": "High Quality",
     "budget": "",
+    "created_at": "2026-10-31T00:00:00Z"
+  },
+  {
+    "post_id": "polycount-245",
+    "platform": "Polycount",
+    "source": "Polycount Forums",
+    "author": "Independent Australian game developer",
+    "title": "Looking for a Low-Poly 3D Artist / Animator - 4X Fantasy Strategy Game",
+    "content": "Looking for a 3D artist interested in helping establish a cohesive, stylized low-poly art direction for Littleward, a fantasy turn-based 4X strategy game. Low-poly fantasy character modelling and simple animation, experience with Blender and rigging. Compensation: A$200 per fortnight to art development with paid milestones agreed in advance.",
+    "url": "https://polycount.com/discussion/239413/paid-or-future-commisions-looking-for-a-low-poly-3d-artist-animator-4x-fantasy-strategy-game",
+    "quality": "High Quality",
+    "budget": "A$200 / fortnight",
     "created_at": "2026-10-31T00:00:00Z"
   },
   {
@@ -1750,29 +1798,5 @@
     "quality": "High Quality",
     "budget": "Paid",
     "created_at": "2026-08-24T09:00:00Z"
-  },
-  {
-    "post_id": "itch.io-ps2-horror-game",
-    "platform": "itch.io",
-    "source": "itch.io forum",
-    "author": "itch.io user",
-    "title": "Looking for a PS2 style horror game for my movie",
-    "content": "[Paid] [Developer] Looking for a PS2 style horror game for my movie. This will be paid looking to craft a horror game based around my horror short film.",
-    "url": "https://itch.io/t/6838894/paid-developer-looking-for-a-ps2-style-horror-game-for-my-movie",
-    "quality": "High Quality",
-    "budget": "Paid",
-    "created_at": "2026-08-24T00:00:00Z"
-  },
-  {
-    "post_id": "upwork-drawing-artist-educator",
-    "platform": "Upwork",
-    "source": "Ippo Studio",
-    "author": "Ippo Studio",
-    "title": "Drawing Artist / Educator to Review and Illustrate Online Drawing Courses",
-    "content": "I'm looking for a skilled drawing artist to help finish a series of beginner-friendly drawing courses for Ippo Studio, a daily drawing platform focused on fundamentals. The course structure is already in place. For every course day, you'll create: 1 reference image, 1 construction image showing underlying shapes/forms, and minor content adjustments.",
-    "url": "https://www.upwork.com/freelance-jobs/apply/Drawing-Artist-Educator-Review-and-Illustrate-Online-Drawing-Courses_~022090352626520465621/",
-    "quality": "High Quality",
-    "budget": "",
-    "created_at": "2026-08-20T15:00:00Z"
   }
 ]
